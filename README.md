@@ -79,50 +79,79 @@ Later, a **live-generation mode** can be added as an optional feature for extra 
 
 ## Roadmap (capabilities)
 
-This roadmap describes capabilities, not specific technologies, so the implementation can evolve.
+Capabilities are ordered **1 → 9** to match the phased plan in [`.cursor/plans/roadmap.md`](.cursor/plans/roadmap.md). Early work centers on **classroom vocabulary** and **English-backed answers**; **short Greek questions with Greek answers** comes later (phases 7–8). Details and milestones live in that file.
 
-1. **Play Greek questions and show answers**  
-   - The app has a fixed set of Q&A pairs.
-   - It can:
-     - Select a question.
-     - Play the question in Greek (TTS or pre-recorded audio).
-     - Display the expected answer on screen.
-   - There is **no user input** yet; this is just "listen and see the answer."
+1. **Vocabulary intake**  
+   - Greek/English pairs (plus topic and grammatical category) in a stable runtime format.  
+   - Near term: Google Sheet → export / script → JSON checked in or generated at build.
 
-2. **Text-based answer and feedback**  
-   - The learner types their answer into an input field.
-   - The app:
-     - Normalizes the input (e.g. trimming, case, optional diacritics).
-     - Compares it to the expected answer.
-     - Plays a **ding** for correct / **bong** for incorrect.
-     - Shows the expected answer for learning.
+2. **Random Greek word, listening-first**  
+   - Pick a word from the list, play it in Greek (TTS or bundled audio).  
+   - Default: **no on-screen Greek** while listening; optional reveal after play.
 
-3. **Voice-based answer and feedback**  
-   - The learner answers by speaking into the device's microphone.
-   - The app:
-     - Uses speech recognition to turn the spoken answer into text (for Greek).
-     - Evaluates the answer in the same way as for text input.
-     - Plays **ding/bong** and shows the expected answer.
+3. **Minimal stats**  
+   - Persist enough for **spaced repetition** and “what to drill next.”  
+   - **Browser-only** storage (e.g. `localStorage` / IndexedDB); no accounts.  
+   - Starts once the phase-2 loop is reliable; refined as later modes appear.
 
-4. **Dictionary / vocabulary intake**  
-   - Make it easy to get classroom vocabulary into the system:
-     - **Baseline:** Paste a list of words or upload a small text/CSV file, review them, and add them to the dictionary.
-     - **Camera-based (Google-Lens-style):** Take a photo of a printed word list, extract text (OCR), then "select all / subset" and review before importing.
-     - **Audio-based:** Read Greek words aloud from a vocabulary list; for each recognized word, the app creates a candidate entry for this session, filtering out false starts, mispronunciations, duplicates, and words already in the dictionary, then presents a review screen to confirm before saving.
+4. **Multiple choice (English gloss)**  
+   - Hear Greek, choose the correct English gloss; **five** options = correct + **four distractors** from the full list (later: filter by topic/category).  
+   - Immediate feedback (**ding** / **bong**); outcomes feed phase-3 stats.
 
-5. **Stats and metrics**  
-   - Track how the learner is doing over time:
-     - Correct vs. missed questions.
-     - Optional **spaced repetition** for missed items.
-     - Strengths and weaknesses by word or topic.
-     - Option to **weight practice** toward weaker areas.
-     - Lifetime or session-based **response latency** (how quickly answers are given).
-   - All stored locally in the browser, so no account or backend is required initially.
+5. **Typed English answer**  
+   - Type the English gloss; normalize (trim, case), compare to the expected string, same feedback pattern as MCQ.
+
+6. **Spoken English answer (STT)**  
+   - Speak the English gloss; speech-to-text, then rule match to the expected gloss; same feedback as typed English.
+
+7. **Greek questions + answers in Greek** *(deferred)*  
+   - Move from isolated words and English answers to **short Greek questions** heard in full, with **short Greek answers** (typed and/or spoken). Requires a curated Greek Q&A corpus.
+
+8. **Expand Greek question practice** *(deferred)*  
+   - More items, difficulty, topics; optional richer shapes or optional live generation—still **question in Greek → answer in Greek**.
+
+9. **Richer stats and more vocabulary intake options** *(later)*  
+   - **Stats:** Beyond minimal SRS—e.g. latency, strengths/weaknesses by word or topic, optional weighting toward weak areas, lifetime vs session views (still client-side unless the product changes).  
+   - **Vocabulary:** Paste/upload CSV, camera + OCR, or audio-based capture with review—beyond the phase-1 Sheet path.
+
+**Milestone:** Phases **4–6** are the **English-language word loop** (MCQ → typed → voice). That loop should be solid before phase 7.
+
+---
+
+## How to test / run
+
+From the repository root (`akouste/`):
+
+1. **Install JavaScript dependencies** (once per clone or after `package.json` changes):
+   ```bash
+   npm install
+   ```
+
+2. **(Optional) Refresh the vocabulary file** from the published Google Sheet CSV. This writes `public/data/wordlist.json`, which the app loads at runtime:
+   ```bash
+   python3 scripts/import_sheet_wordlist.py
+   ```
+   You only need this when the sheet changed or the file is missing. Override the URL with `WORDLIST_CSV_URL` if needed.
+
+3. **Run the dev server** and open the URL Vite prints (usually `http://localhost:5173/`):
+   ```bash
+   npm run dev
+   ```
+
+4. **Production-style check** (optional): build static assets and preview them:
+   ```bash
+   npm run build
+   npm run preview
+   ```
+   Open the preview URL Vite prints.
+
+**Requirements:** [Node.js](https://nodejs.org/) for the web app; Python 3 is only needed for the wordlist import script. **Greek TTS** depends on your OS/browser voices—if audio is wrong or silent, check system speech/voice settings and try another browser.
 
 ---
 
 ## How to use this README
 
 - When you create the GitHub repo, this file serves as the default landing page.
-- A more detailed **implementation plan** (tech stack, phased roadmap) lives in `.cursor/plans` for development reference.
+- **Phase order and tables** are canonical in [`.cursor/plans/roadmap.md`](.cursor/plans/roadmap.md); this section is the readable summary.
 - This README stays **human-facing**, describing what Akouste is, why it exists, and what it will be able to do.
+

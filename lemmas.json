@@ -1,0 +1,5238 @@
+{
+  "meta": {
+    "source": "wordlist.md",
+    "version": "1.0",
+    "description": "Validated and expanded Greek 101 word list; one lemma per entry; function words and question words as single-form lemmas."
+  },
+  "lemmas": [
+    {
+      "id": "lemma-001",
+      "greek": "άλλά",
+      "english": "but",
+      "pos": "conjunction",
+      "tags": [
+        "conjunctions"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "άλλά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-002",
+      "greek": "άνθρωπος",
+      "english": "person",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "άνθρωπος",
+        "άνθρωποι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-003",
+      "greek": "άντρας",
+      "english": "man",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "άντρας",
+        "άντρες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-004",
+      "greek": "άσπρο",
+      "english": "white",
+      "pos": "adjective",
+      "tags": [
+        "colors"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "άσπρος",
+        "άσπρη",
+        "άσπρο",
+        "άσπροι",
+        "άσπρες",
+        "άσπρα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-005",
+      "greek": "έλληνας",
+      "english": "Greek",
+      "pos": "noun",
+      "tags": [
+        "countries-and-nationalities"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "έλληνας",
+        "έλληνες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-006",
+      "greek": "ένα",
+      "english": "a",
+      "pos": "article",
+      "tags": [
+        "articles",
+        "numbers"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ένα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-007",
+      "greek": "ένας",
+      "english": "a",
+      "pos": "article",
+      "tags": [
+        "articles"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ένας"
+      ],
+      "notes": "corrected from \"ένασ\""
+    },
+    {
+      "id": "lemma-008",
+      "greek": "έντεκα",
+      "english": "eleven",
+      "pos": "number",
+      "tags": [
+        "numbers"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "έντεκα",
+        "έντεκα",
+        "έντεκα",
+        "έντεκα",
+        "έντεκα",
+        "έντεκα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-009",
+      "greek": "έξι",
+      "english": "six",
+      "pos": "number",
+      "tags": [
+        "numbers"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "έξι",
+        "έξι",
+        "έξι",
+        "έξι",
+        "έξι",
+        "έξι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-010",
+      "greek": "έξω",
+      "english": "outside",
+      "pos": "noun",
+      "tags": [
+        "location,-direction,-time,-and-space"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "έξω"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-011",
+      "greek": "έχω",
+      "english": "have",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "έχω",
+        "έχεις",
+        "έχει",
+        "έχουμε",
+        "έχετε",
+        "έχουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-012",
+      "greek": "ή",
+      "english": "or",
+      "pos": "conjunction",
+      "tags": [
+        "conjunctions"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ή"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-013",
+      "greek": "αίθουσα",
+      "english": "room",
+      "pos": "noun",
+      "tags": [
+        "classroom-and-office-supplies"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "αίθουσα",
+        "αίθουσες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-014",
+      "greek": "αγγλικά",
+      "english": "English",
+      "pos": "noun",
+      "tags": [
+        "countries-and-nationalities"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "αγγλικά",
+        "αγγλικά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-015",
+      "greek": "αγκώνας",
+      "english": "elbow",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "αγκώνας",
+        "αγκώνες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-016",
+      "greek": "αγοράζω",
+      "english": "buy",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "αγοράζω",
+        "αγοράζεις",
+        "αγοράζει",
+        "αγοράζουμε",
+        "αγοράζετε",
+        "αγοράζουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-017",
+      "greek": "αγόρι",
+      "english": "boy",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "αγόρι",
+        "αγόρια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-018",
+      "greek": "αδελφός",
+      "english": "brother",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "αδελφός",
+        "αδελφοί"
+      ],
+      "notes": "corrected from \"αδελφοί\""
+    },
+    {
+      "id": "lemma-019",
+      "greek": "αμερική",
+      "english": "America",
+      "pos": "noun",
+      "tags": [
+        "countries-and-nationalities"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "αμερική"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-020",
+      "greek": "αμερικανίδα",
+      "english": "American",
+      "pos": "noun",
+      "tags": [
+        "countries-and-nationalities"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "αμερικανίδα",
+        "αμερικανίδες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-021",
+      "greek": "αμερικανός",
+      "english": "American",
+      "pos": "noun",
+      "tags": [
+        "countries-and-nationalities"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "αμερικανός",
+        "αμερικανοί"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-022",
+      "greek": "ανάμεσα",
+      "english": "between",
+      "pos": "noun",
+      "tags": [
+        "location,-direction,-time,-and-space"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ανάμεσα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-023",
+      "greek": "ανιψιά",
+      "english": "niece",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ανιψιά",
+        "ανιψιές"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-024",
+      "greek": "ανιψιός",
+      "english": "nephew",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ανιψιός",
+        "ανιψιοί"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-025",
+      "greek": "ανοίγω",
+      "english": "open",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ανοίγω",
+        "ανοίγεις",
+        "ανοίγει",
+        "ανοίγουμε",
+        "ανοίγετε",
+        "ανοίγουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-026",
+      "greek": "ανοιχτό",
+      "english": "light",
+      "pos": "adjective",
+      "tags": [
+        "colors"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ανοιχτός",
+        "ανοιχτή",
+        "ανοιχτό",
+        "ανοιχτοί",
+        "ανοιχτές",
+        "ανοιχτά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-027",
+      "greek": "από",
+      "english": "from",
+      "pos": "noun",
+      "tags": [
+        "location,-direction,-time,-and-space"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "από"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-028",
+      "greek": "αριστερά",
+      "english": "left",
+      "pos": "noun",
+      "tags": [
+        "location,-direction,-time,-and-space"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "αριστερά"
+      ],
+      "notes": "corrected from \"απιστερά\""
+    },
+    {
+      "id": "lemma-029",
+      "greek": "αρχίζω",
+      "english": "start",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "αρχίζω",
+        "αρχίζεις",
+        "αρχίζει",
+        "αρχίζουμε",
+        "αρχίζετε",
+        "αρχίζουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-030",
+      "greek": "αστράγαλος",
+      "english": "ankle",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "αστράγαλος",
+        "αστράγαλοι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-031",
+      "greek": "αυλή",
+      "english": "yard",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "αυλή",
+        "αυλές"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-032",
+      "greek": "αυτά",
+      "english": "they",
+      "pos": "pronoun",
+      "tags": [
+        "pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "αυτά"
+      ],
+      "notes": "corrected from \"αυτα\""
+    },
+    {
+      "id": "lemma-033",
+      "greek": "αυτές",
+      "english": "they",
+      "pos": "pronoun",
+      "tags": [
+        "pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "αυτές"
+      ],
+      "notes": "corrected from \"αυτεσ\""
+    },
+    {
+      "id": "lemma-034",
+      "greek": "αυτή",
+      "english": "she",
+      "pos": "pronoun",
+      "tags": [
+        "pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "αυτή"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-035",
+      "greek": "αυτί",
+      "english": "ear",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "αυτί",
+        "αυτιά"
+      ],
+      "notes": "corrected from \"αυτι\""
+    },
+    {
+      "id": "lemma-036",
+      "greek": "αυτοί",
+      "english": "they",
+      "pos": "pronoun",
+      "tags": [
+        "pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "αυτοί"
+      ],
+      "notes": "corrected from \"αυτοι\""
+    },
+    {
+      "id": "lemma-037",
+      "greek": "αυτό",
+      "english": "it",
+      "pos": "pronoun",
+      "tags": [
+        "pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "αυτό"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-038",
+      "greek": "αυτός",
+      "english": "he",
+      "pos": "pronoun",
+      "tags": [
+        "pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "αυτός"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-039",
+      "greek": "βάζω",
+      "english": "put",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "βάζω",
+        "βάζεις",
+        "βάζει",
+        "βάζουμε",
+        "βάζετε",
+        "βάζουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-040",
+      "greek": "βγάζω",
+      "english": "take-off",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "βγάζω",
+        "βγάζεις",
+        "βγάζει",
+        "βγάζουμε",
+        "βγάζετε",
+        "βγάζουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-041",
+      "greek": "βγαίνω",
+      "english": "go-out",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "βγαίνω",
+        "βγαίνεις",
+        "βγαίνει",
+        "βγαίνουμε",
+        "βγαίνετε",
+        "βγαίνουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-042",
+      "greek": "βεράντα",
+      "english": "veranda",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "βεράντα",
+        "βεράντες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-043",
+      "greek": "βιβλίο",
+      "english": "book",
+      "pos": "noun",
+      "tags": [
+        "classroom-and-office-supplies"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "βιβλίο",
+        "βιβλία"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-044",
+      "greek": "βλέπω",
+      "english": "see",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "βλέπω",
+        "βλέπεις",
+        "βλέπει",
+        "βλέπουμε",
+        "βλέπετε",
+        "βλέπουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-045",
+      "greek": "βουρτσίζω",
+      "english": "brush",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "βουρτσίζω",
+        "βουρτσίζεις",
+        "βουρτσίζει",
+        "βουρτσίζουμε",
+        "βουρτσίζετε",
+        "βουρτσίζουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-046",
+      "greek": "βούρτσα",
+      "english": "brush",
+      "pos": "noun",
+      "tags": [
+        "bathroom"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "βούρτσα",
+        "βούρτσες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-047",
+      "greek": "βρύση",
+      "english": "faucet",
+      "pos": "noun",
+      "tags": [
+        "bathroom"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "βρύση",
+        "βρύσες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-048",
+      "greek": "γάλλος",
+      "english": "French",
+      "pos": "noun",
+      "tags": [
+        "countries-and-nationalities"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "γάλλος",
+        "γάλλοι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-049",
+      "greek": "γάντι",
+      "english": "glove",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "γάντι",
+        "γάντια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-050",
+      "greek": "γαλάζιο",
+      "english": "blue",
+      "pos": "adjective",
+      "tags": [
+        "colors"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "γαλάζιος",
+        "γαλάζια",
+        "γαλάζιο",
+        "γαλάζιοι",
+        "γαλάζιες",
+        "γαλάζια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-051",
+      "greek": "γαλλία",
+      "english": "France",
+      "pos": "noun",
+      "tags": [
+        "countries-and-nationalities"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "γαλλία"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-052",
+      "greek": "γαλλίδα",
+      "english": "French",
+      "pos": "noun",
+      "tags": [
+        "countries-and-nationalities"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "γαλλίδα",
+        "γαλλίδες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-053",
+      "greek": "γαλλικά",
+      "english": "French",
+      "pos": "noun",
+      "tags": [
+        "countries-and-nationalities"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "γαλλικά",
+        "γαλλικά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-054",
+      "greek": "για",
+      "english": "for",
+      "pos": "preposition",
+      "tags": [
+        "prepositions"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "για"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-055",
+      "greek": "γιαγιά",
+      "english": "grandmother",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "γιαγιά",
+        "γιαγιές"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-056",
+      "greek": "γιος",
+      "english": "son",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "γιος",
+        "γιοι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-057",
+      "greek": "γκαράζ",
+      "english": "garage",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "γκαράζ",
+        "γκαράζ"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-058",
+      "greek": "γκρι",
+      "english": "grey",
+      "pos": "adjective",
+      "tags": [
+        "colors"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "γκρι",
+        "γκρι",
+        "γκρι",
+        "γκρι",
+        "γκρι",
+        "γκρι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-059",
+      "greek": "γλώσσα",
+      "english": "tongue",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "γλώσσα",
+        "γλώσσες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-060",
+      "greek": "γονιός",
+      "english": "parent",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "γονιός",
+        "γονείς"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-061",
+      "greek": "γράφω",
+      "english": "write",
+      "pos": "verb",
+      "tags": [
+        "group-1",
+        "group-2"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "γράφω",
+        "γράφεις",
+        "γράφει",
+        "γράφουμε",
+        "γράφετε",
+        "γράφουν"
+      ],
+      "notes": "corrected from \"γραφω\""
+    },
+    {
+      "id": "lemma-062",
+      "greek": "γραφείο",
+      "english": "desk",
+      "pos": "noun",
+      "tags": [
+        "furniture"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "γραφείο",
+        "γραφεία"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-063",
+      "greek": "γυαλιά",
+      "english": "glasses",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "γυαλιά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-064",
+      "greek": "γυναίκα",
+      "english": "woman",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "γυναίκα",
+        "γυναίκες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-065",
+      "greek": "γόμα",
+      "english": "eraser",
+      "pos": "noun",
+      "tags": [
+        "classroom-and-office-supplies"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "γόμα",
+        "γόμες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-066",
+      "greek": "γόνατο",
+      "english": "knee",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "γόνατο",
+        "γόνατα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-067",
+      "greek": "δάσκαλος",
+      "english": "teacher",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "δάσκαλος",
+        "δάσκαλοι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-068",
+      "greek": "δάχτυλο",
+      "english": "finger",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "δάχτυλο",
+        "δάχτυλα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-069",
+      "greek": "δέ",
+      "english": "and",
+      "pos": "conjunction",
+      "tags": [
+        "conjunctions"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "δέ"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-070",
+      "greek": "δέκα",
+      "english": "ten",
+      "pos": "number",
+      "tags": [
+        "numbers"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "δέκα",
+        "δέκα",
+        "δέκα",
+        "δέκα",
+        "δέκα",
+        "δέκα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-071",
+      "greek": "δασκάλα",
+      "english": "teacher",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "δασκάλα",
+        "δασκάλες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-072",
+      "greek": "δεκαέξι",
+      "english": "sixteen",
+      "pos": "number",
+      "tags": [
+        "numbers"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "δεκαέξι",
+        "δεκαέξι",
+        "δεκαέξι",
+        "δεκαέξι",
+        "δεκαέξι",
+        "δεκαέξι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-073",
+      "greek": "δεκαεπτά",
+      "english": "seventeen",
+      "pos": "number",
+      "tags": [
+        "numbers"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "δεκαεπτά",
+        "δεκαεπτά",
+        "δεκαεπτά",
+        "δεκαεπτά",
+        "δεκαεπτά",
+        "δεκαεπτά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-074",
+      "greek": "δεκαοκτώ",
+      "english": "eighteen",
+      "pos": "number",
+      "tags": [
+        "numbers"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "δεκαοκτώ",
+        "δεκαοκτώ",
+        "δεκαοκτώ",
+        "δεκαοκτώ",
+        "δεκαοκτώ",
+        "δεκαοκτώ"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-075",
+      "greek": "δεκαπέντε",
+      "english": "fifteen",
+      "pos": "number",
+      "tags": [
+        "numbers"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "δεκαπέντε",
+        "δεκαπέντε",
+        "δεκαπέντε",
+        "δεκαπέντε",
+        "δεκαπέντε",
+        "δεκαπέντε"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-076",
+      "greek": "δεκατέσσερα",
+      "english": "fourteen",
+      "pos": "number",
+      "tags": [
+        "numbers"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "δεκατέσσερα",
+        "δεκατέσσερα",
+        "δεκατέσσερα",
+        "δεκατέσσερα",
+        "δεκατέσσερα",
+        "δεκατέσσερα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-077",
+      "greek": "δεκατρία",
+      "english": "thirteen",
+      "pos": "number",
+      "tags": [
+        "numbers"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "δεκατρία",
+        "δεκατρία",
+        "δεκατρία",
+        "δεκατρία",
+        "δεκατρία",
+        "δεκατρία"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-078",
+      "greek": "δεξιά",
+      "english": "right",
+      "pos": "noun",
+      "tags": [
+        "location,-direction,-time,-and-space"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "δεξιά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-079",
+      "greek": "δεσποινίδα",
+      "english": "Miss",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "δεσποινίδα",
+        "δεσποινίδες"
+      ],
+      "notes": "corrected from \"δεσποινίς\""
+    },
+    {
+      "id": "lemma-080",
+      "greek": "διάδρομος",
+      "english": "hallway",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "διάδρομος",
+        "διάδρομοι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-081",
+      "greek": "διαβάζω",
+      "english": "read",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "διαβάζω",
+        "διαβάζεις",
+        "διαβάζει",
+        "διαβάζουμε",
+        "διαβάζετε",
+        "διαβάζουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-082",
+      "greek": "δουλεύω",
+      "english": "work",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "δουλεύω",
+        "δουλεύεις",
+        "δουλεύει",
+        "δουλεύουμε",
+        "δουλεύετε",
+        "δουλεύουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-083",
+      "greek": "δωμάτιο",
+      "english": "room",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "δωμάτιο",
+        "δωμάτια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-084",
+      "greek": "δόντι",
+      "english": "tooth",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "δόντι",
+        "δόντια"
+      ],
+      "notes": "corrected from \"δόντια\""
+    },
+    {
+      "id": "lemma-085",
+      "greek": "δύο",
+      "english": "two",
+      "pos": "number",
+      "tags": [
+        "numbers"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "δύο",
+        "δύο",
+        "δύο",
+        "δύο",
+        "δύο",
+        "δύο"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-086",
+      "greek": "δώδεκα",
+      "english": "twelve",
+      "pos": "number",
+      "tags": [
+        "numbers"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "δώδεκα",
+        "δώδεκα",
+        "δώδεκα",
+        "δώδεκα",
+        "δώδεκα",
+        "δώδεκα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-087",
+      "greek": "είκοσι",
+      "english": "twenty",
+      "pos": "number",
+      "tags": [
+        "numbers"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "είκοσι",
+        "είκοσι",
+        "είκοσι",
+        "είκοσι",
+        "είκοσι",
+        "είκοσι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-088",
+      "greek": "είμαι",
+      "english": "be",
+      "pos": "verb",
+      "tags": [
+        "verbs"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "είμαι",
+        "είσαι",
+        "είναι",
+        "είμαστε",
+        "είστε",
+        "είναι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-089",
+      "greek": "εγγονός",
+      "english": "grandson",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "εγγονός",
+        "εγγονοί"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-090",
+      "greek": "εγώ",
+      "english": "I",
+      "pos": "pronoun",
+      "tags": [
+        "pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "εγώ"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-091",
+      "greek": "εδώ",
+      "english": "here",
+      "pos": "noun",
+      "tags": [
+        "location,-direction,-time,-and-space"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "εδώ"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-092",
+      "greek": "εκεί",
+      "english": "there",
+      "pos": "noun",
+      "tags": [
+        "location,-direction,-time,-and-space"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "εκεί"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-093",
+      "greek": "ελλάδα",
+      "english": "Greece",
+      "pos": "noun",
+      "tags": [
+        "countries-and-nationalities"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ελλάδα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-094",
+      "greek": "ελληνίδα",
+      "english": "Greek",
+      "pos": "noun",
+      "tags": [
+        "countries-and-nationalities"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ελληνίδα",
+        "ελληνίδες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-095",
+      "greek": "ελληνικά",
+      "english": "Greek",
+      "pos": "noun",
+      "tags": [
+        "countries-and-nationalities"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ελληνικά",
+        "ελληνικά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-096",
+      "greek": "εμείς",
+      "english": "we",
+      "pos": "pronoun",
+      "tags": [
+        "pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "εμείς"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-097",
+      "greek": "ενήλικος",
+      "english": "adult",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ενήλικος",
+        "ενήλικοι"
+      ],
+      "notes": "corrected from \"ενήλικοι\""
+    },
+    {
+      "id": "lemma-098",
+      "greek": "εννέα",
+      "english": "nine",
+      "pos": "number",
+      "tags": [
+        "numbers"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "εννέα",
+        "εννέα",
+        "εννέα",
+        "εννέα",
+        "εννέα",
+        "εννέα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-099",
+      "greek": "εξετάζω",
+      "english": "examine",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "εξετάζω",
+        "εξετάζεις",
+        "εξετάζει",
+        "εξετάζουμε",
+        "εξετάζετε",
+        "εξετάζουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-100",
+      "greek": "επτά",
+      "english": "seven",
+      "pos": "number",
+      "tags": [
+        "numbers"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "επτά",
+        "επτά",
+        "επτά",
+        "επτά",
+        "επτά",
+        "επτά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-101",
+      "greek": "εσείς",
+      "english": "you",
+      "pos": "pronoun",
+      "tags": [
+        "pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "εσείς"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-102",
+      "greek": "εσύ",
+      "english": "you",
+      "pos": "pronoun",
+      "tags": [
+        "pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "εσύ"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-103",
+      "greek": "ζακέτα",
+      "english": "cardigan",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ζακέτα",
+        "ζακέτες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-104",
+      "greek": "ζώνη",
+      "english": "belt",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ζώνη",
+        "ζώνες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-105",
+      "greek": "η",
+      "english": "the",
+      "pos": "article",
+      "tags": [
+        "articles"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "η"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-106",
+      "greek": "θέλω",
+      "english": "want",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "θέλω",
+        "θέλεις",
+        "θέλει",
+        "θέλουμε",
+        "θέλετε",
+        "θέλουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-107",
+      "greek": "θεία",
+      "english": "aunt",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "θεία",
+        "θείες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-108",
+      "greek": "θείος",
+      "english": "uncle",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "θείος",
+        "θείοι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-109",
+      "greek": "θρανίο",
+      "english": "desk",
+      "pos": "noun",
+      "tags": [
+        "classroom-and-office-supplies"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "θρανίο",
+        "θρανία"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-110",
+      "greek": "κάθομαι",
+      "english": "sit",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κάθομαι",
+        "κάθεσαι",
+        "κάθεται",
+        "καθόμαστε",
+        "κάθεστε",
+        "κάθονται"
+      ],
+      "notes": "corrected from \"κατίζω\""
+    },
+    {
+      "id": "lemma-111",
+      "greek": "κάλτσα",
+      "english": "sock",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κάλτσα",
+        "κάλτσες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-112",
+      "greek": "κάνω",
+      "english": "do",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κάνω",
+        "κάνεις",
+        "κάνει",
+        "κάνουμε",
+        "κάνετε",
+        "κάνουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-113",
+      "greek": "κήπος",
+      "english": "garden",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κήπος",
+        "κήποι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-114",
+      "greek": "κίτρινο",
+      "english": "yellow",
+      "pos": "adjective",
+      "tags": [
+        "colors"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κίτρινος",
+        "κίτρινη",
+        "κίτρινο",
+        "κίτρινοι",
+        "κίτρινες",
+        "κίτρινα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-115",
+      "greek": "καθαρίζω",
+      "english": "clean",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "καθαρίζω",
+        "καθαρίζεις",
+        "καθαρίζει",
+        "καθαρίζουμε",
+        "καθαρίζετε",
+        "καθαρίζουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-116",
+      "greek": "καθιστικό",
+      "english": "sitting-room",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "καθιστικό",
+        "καθιστικά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-117",
+      "greek": "καθρέφτης",
+      "english": "mirror",
+      "pos": "noun",
+      "tags": [
+        "bathroom"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "καθρέφτης",
+        "καθρέφτες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-118",
+      "greek": "και",
+      "english": "and",
+      "pos": "conjunction",
+      "tags": [
+        "conjunctions"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "και"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-119",
+      "greek": "καλσόν",
+      "english": "tights",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "καλσόν",
+        "καλσόν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-120",
+      "greek": "καπέλο",
+      "english": "hat",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "καπέλο",
+        "καπέλα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-121",
+      "greek": "καρέκλα",
+      "english": "chair",
+      "pos": "noun",
+      "tags": [
+        "furniture"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "καρέκλα",
+        "καρέκλες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-122",
+      "greek": "κασετίνα",
+      "english": "box",
+      "pos": "noun",
+      "tags": [
+        "classroom-and-office-supplies"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κασετίνα",
+        "κασετίνες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-123",
+      "greek": "κασκόλ",
+      "english": "scarf",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κασκόλ",
+        "κασκόλ"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-124",
+      "greek": "καταλαβαίνω",
+      "english": "understand",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "καταλαβαίνω",
+        "καταλαβαίνεις",
+        "καταλαβαίνει",
+        "καταλαβαίνουμε",
+        "καταλαβαίνετε",
+        "καταλαβαίνουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-125",
+      "greek": "καταψύκτης",
+      "english": "freezer",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "καταψύκτης",
+        "καταψύκτες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-126",
+      "greek": "κατσαρόλα",
+      "english": "pot",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κατσαρόλα",
+        "κατσαρόλες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-127",
+      "greek": "καφέ",
+      "english": "brown",
+      "pos": "adjective",
+      "tags": [
+        "colors"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "καφέ",
+        "καφέ",
+        "καφέ",
+        "καφέ",
+        "καφέ",
+        "καφέ"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-128",
+      "greek": "κεφάλι",
+      "english": "head",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κεφάλι",
+        "κεφάλια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-129",
+      "greek": "κοιλιά",
+      "english": "stomach",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κοιλιά",
+        "κοιλιές"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-130",
+      "greek": "κομοδίνο",
+      "english": "dresser",
+      "pos": "noun",
+      "tags": [
+        "bathroom"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κομοδίνο",
+        "κομοδίνα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-131",
+      "greek": "κοντομάνικο",
+      "english": "short-sleeve",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κοντομάνικο",
+        "κοντομάνικα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-132",
+      "greek": "κοπέλα",
+      "english": "girl",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κοπέλα",
+        "κοπέλες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-133",
+      "greek": "κορίτσι",
+      "english": "girl",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κορίτσι",
+        "κορίτσια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-134",
+      "greek": "κουζίνα",
+      "english": "kitchen",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms",
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κουζίνα",
+        "κουζίνες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-135",
+      "greek": "κουτάλα",
+      "english": "ladle",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κουτάλα",
+        "κουτάλες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-136",
+      "greek": "κουτάλι",
+      "english": "spoon",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κουτάλι",
+        "κουτάλια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-137",
+      "greek": "κουταλάκι",
+      "english": "teaspoon",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κουταλάκι",
+        "κουταλάκια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-138",
+      "greek": "κρεβάτι",
+      "english": "bed",
+      "pos": "noun",
+      "tags": [
+        "bedroom"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κρεβάτι",
+        "κρεβάτια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-139",
+      "greek": "κρεβατοκάμαρα",
+      "english": "bedroom",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κρεβατοκάμαρα",
+        "κρεβατοκάμαρες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-140",
+      "greek": "κυρία",
+      "english": "Mrs",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κυρία",
+        "κυρίες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-141",
+      "greek": "κόκκινο",
+      "english": "red",
+      "pos": "adjective",
+      "tags": [
+        "colors"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κόκκινος",
+        "κόκκινη",
+        "κόκκινο",
+        "κόκκινοι",
+        "κόκκινες",
+        "κόκκινα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-142",
+      "greek": "κόλλα",
+      "english": "glue",
+      "pos": "noun",
+      "tags": [
+        "classroom-and-office-supplies"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κόλλα",
+        "κόλλες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-143",
+      "greek": "κόρη",
+      "english": "daughter",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κόρη",
+        "κόρες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-144",
+      "greek": "κύριος",
+      "english": "Mr",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "κύριος",
+        "κύριοι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-145",
+      "greek": "λαιμός",
+      "english": "neck",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "λαιμός",
+        "λαιμοί"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-146",
+      "greek": "λευκό",
+      "english": "white",
+      "pos": "adjective",
+      "tags": [
+        "colors"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "λευκός",
+        "λευκή",
+        "λευκό",
+        "λευκοί",
+        "λευκές",
+        "λευκά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-147",
+      "greek": "λοιπόν",
+      "english": "so",
+      "pos": "interjection",
+      "tags": [
+        "phrases-and-interjections"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "λοιπόν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-148",
+      "greek": "μάλιστα",
+      "english": "yes",
+      "pos": "interjection",
+      "tags": [
+        "phrases-and-interjections"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μάλιστα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-149",
+      "greek": "μάτι",
+      "english": "eye",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μάτι",
+        "μάτια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-150",
+      "greek": "μένω",
+      "english": "stay",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μένω",
+        "μένεις",
+        "μένει",
+        "μένουμε",
+        "μένετε",
+        "μένουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-151",
+      "greek": "μέσα",
+      "english": "inside",
+      "pos": "noun",
+      "tags": [
+        "location,-direction,-time,-and-space"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μέσα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-152",
+      "greek": "μέτωπο",
+      "english": "forehead",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μέτωπο",
+        "μέτωπα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-153",
+      "greek": "μαγιό",
+      "english": "swimsuit",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μαγιό",
+        "μαγιό"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-154",
+      "greek": "μαθήτρια",
+      "english": "student",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μαθήτρια",
+        "μαθήτριες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-155",
+      "greek": "μαθητής",
+      "english": "student",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μαθητής",
+        "μαθητές"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-156",
+      "greek": "μακριά",
+      "english": "far",
+      "pos": "noun",
+      "tags": [
+        "location,-direction,-time,-and-space"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μακριά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-157",
+      "greek": "μαλλιά",
+      "english": "hair",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μαλλιά",
+        "μαλλιά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-158",
+      "greek": "μανίκι",
+      "english": "sleeve",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μανίκι",
+        "μανίκια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-159",
+      "greek": "μαξιλάρι",
+      "english": "pillow",
+      "pos": "noun",
+      "tags": [
+        "bedroom"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μαξιλάρι",
+        "μαξιλάρια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-160",
+      "greek": "μαρκαδόρος",
+      "english": "marker",
+      "pos": "noun",
+      "tags": [
+        "classroom-and-office-supplies"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μαρκαδόρος",
+        "μαρκαδόροι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-161",
+      "greek": "μας",
+      "english": "our",
+      "pos": "pronoun",
+      "tags": [
+        "possessive-pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μας"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-162",
+      "greek": "μαχαίρι",
+      "english": "knife",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μαχαίρι",
+        "μαχαίρια"
+      ],
+      "notes": "corrected from \"μαχύρη\""
+    },
+    {
+      "id": "lemma-163",
+      "greek": "μαύρο",
+      "english": "black",
+      "pos": "adjective",
+      "tags": [
+        "colors"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μαύρος",
+        "μαύρη",
+        "μαύρο",
+        "μαύροι",
+        "μαύρες",
+        "μαύρα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-164",
+      "greek": "με",
+      "english": "with",
+      "pos": "preposition",
+      "tags": [
+        "prepositions"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "με"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-165",
+      "greek": "μετά",
+      "english": "after",
+      "pos": "noun",
+      "tags": [
+        "location,-direction,-time,-and-space"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μετά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-166",
+      "greek": "μεταξύ",
+      "english": "between",
+      "pos": "noun",
+      "tags": [
+        "location,-direction,-time,-and-space"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μεταξύ"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-167",
+      "greek": "μια",
+      "english": "a",
+      "pos": "article",
+      "tags": [
+        "articles"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-168",
+      "greek": "μικροκυμάτων",
+      "english": "microwave",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μικροκυμάτων",
+        "μικροκυμάτων"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-169",
+      "greek": "μιλάω",
+      "english": "speak",
+      "pos": "verb",
+      "tags": [
+        "group-2"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μιλάω",
+        "μιλάς",
+        "μιλά",
+        "μιλάμε",
+        "μιλάτε",
+        "μιλάνε"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-170",
+      "greek": "μιλώ",
+      "english": "speak",
+      "pos": "verb",
+      "tags": [
+        "group-2"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μιλώ",
+        "μιλάς",
+        "μιλά",
+        "μιλάμε",
+        "μιλάτε",
+        "μιλάνε"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-171",
+      "greek": "μολύβι",
+      "english": "pencil",
+      "pos": "noun",
+      "tags": [
+        "classroom-and-office-supplies"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μολύβι",
+        "μολύβια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-172",
+      "greek": "μου",
+      "english": "my",
+      "pos": "pronoun",
+      "tags": [
+        "possessive-pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μου"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-173",
+      "greek": "μπάνιο",
+      "english": "bathroom",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μπάνιο",
+        "μπάνια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-174",
+      "greek": "μπαίνω",
+      "english": "enter",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μπαίνω",
+        "μπαίνεις",
+        "μπαίνει",
+        "μπαίνουμε",
+        "μπαίνετε",
+        "μπαίνουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-175",
+      "greek": "μπαλκόνι",
+      "english": "balcony",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μπαλκόνι",
+        "μπαλκόνια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-176",
+      "greek": "μπαμπάς",
+      "english": "dad",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μπαμπάς",
+        "μπαμπάδες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-177",
+      "greek": "μπανιέρα",
+      "english": "bathtub",
+      "pos": "noun",
+      "tags": [
+        "bathroom"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μπανιέρα",
+        "μπανιέρες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-178",
+      "greek": "μπλε",
+      "english": "blue",
+      "pos": "adjective",
+      "tags": [
+        "colors"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μπλε",
+        "μπλε",
+        "μπλε",
+        "μπλε",
+        "μπλε",
+        "μπλε"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-179",
+      "greek": "μπλουζάκι",
+      "english": "T-shirt",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μπλουζάκι",
+        "μπλουζάκια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-180",
+      "greek": "μπλούζα",
+      "english": "blouse",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μπλούζα",
+        "μπλούζες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-181",
+      "greek": "μπουφάν",
+      "english": "jacket",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μπουφάν",
+        "μπουφάν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-182",
+      "greek": "μπότα",
+      "english": "boot",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μπότα",
+        "μπότες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-183",
+      "greek": "μυαλό",
+      "english": "brain",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μυαλό",
+        "μυαλά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-184",
+      "greek": "μωβ",
+      "english": "purple",
+      "pos": "adjective",
+      "tags": [
+        "colors"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μωβ",
+        "μωβ",
+        "μωβ",
+        "μωβ",
+        "μωβ",
+        "μωβ"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-185",
+      "greek": "μύτη",
+      "english": "nose",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "μύτη",
+        "μύτες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-186",
+      "greek": "ναι",
+      "english": "yes",
+      "pos": "interjection",
+      "tags": [
+        "phrases-and-interjections"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ναι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-187",
+      "greek": "νεροχύτης",
+      "english": "sink",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "νεροχύτης",
+        "νεροχύτες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-188",
+      "greek": "νερό",
+      "english": "water",
+      "pos": "noun",
+      "tags": [
+        "bathroom"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "νερό",
+        "νερά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-189",
+      "greek": "νιπτήρας",
+      "english": "washbasin",
+      "pos": "noun",
+      "tags": [
+        "bathroom"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "νιπτήρας",
+        "νιπτήρες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-190",
+      "greek": "ντουλάπα",
+      "english": "wardrobe",
+      "pos": "noun",
+      "tags": [
+        "bedroom"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ντουλάπα",
+        "ντουλάπες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-191",
+      "greek": "ντουλάπι",
+      "english": "cupboard",
+      "pos": "noun",
+      "tags": [
+        "bathroom",
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ντουλάπι",
+        "ντουλάπια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-192",
+      "greek": "ντους",
+      "english": "shower",
+      "pos": "noun",
+      "tags": [
+        "bathroom"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ντους",
+        "ντους"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-193",
+      "greek": "νυχτικό",
+      "english": "nightgown",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "νυχτικό",
+        "νυχτικά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-194",
+      "greek": "νύχι",
+      "english": "nail",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "νύχι",
+        "νύχια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-195",
+      "greek": "ξάδερφος",
+      "english": "cousin",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ξάδερφος",
+        "ξάδερφοι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-196",
+      "greek": "ξέρω",
+      "english": "know",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ξέρω",
+        "ξέρεις",
+        "ξέρει",
+        "ξέρουμε",
+        "ξέρετε",
+        "ξέρουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-197",
+      "greek": "ξύστρα",
+      "english": "sharpener",
+      "pos": "noun",
+      "tags": [
+        "classroom-and-office-supplies"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ξύστρα",
+        "ξύστρες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-198",
+      "greek": "ο",
+      "english": "the",
+      "pos": "article",
+      "tags": [
+        "articles"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ο"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-199",
+      "greek": "οι",
+      "english": "the",
+      "pos": "article",
+      "tags": [
+        "articles"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "οι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-200",
+      "greek": "οικογένεια",
+      "english": "family",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "οικογένεια",
+        "οικογένειες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-201",
+      "greek": "οκτώ",
+      "english": "eight",
+      "pos": "number",
+      "tags": [
+        "numbers"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "οκτώ",
+        "οκτώ",
+        "οκτώ",
+        "οκτώ",
+        "οκτώ",
+        "οκτώ"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-202",
+      "greek": "πάμε",
+      "english": "lets-go",
+      "pos": "interjection",
+      "tags": [
+        "phrases-and-interjections"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πάμε"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-203",
+      "greek": "πάπλωμα",
+      "english": "blanket",
+      "pos": "noun",
+      "tags": [
+        "bedroom"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πάπλωμα",
+        "παπλώματα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-204",
+      "greek": "πάρα πολύ",
+      "english": "very",
+      "pos": "adverb",
+      "tags": [
+        "amounts-and-magnitudes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πάρα πολύ"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-205",
+      "greek": "πάτωμα",
+      "english": "floor",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πάτωμα",
+        "πατώματα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-206",
+      "greek": "πέδιλο",
+      "english": "sandal",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πέδιλο",
+        "πέδιλα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-207",
+      "greek": "πέντε",
+      "english": "five",
+      "pos": "number",
+      "tags": [
+        "numbers"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πέντε",
+        "πέντε",
+        "πέντε",
+        "πέντε",
+        "πέντε",
+        "πέντε"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-208",
+      "greek": "πίνακας",
+      "english": "board",
+      "pos": "noun",
+      "tags": [
+        "classroom-and-office-supplies"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πίνακας",
+        "πίνακες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-209",
+      "greek": "παίζω",
+      "english": "play",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "παίζω",
+        "παίζεις",
+        "παίζει",
+        "παίζουμε",
+        "παίζετε",
+        "παίζουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-210",
+      "greek": "παίρνω",
+      "english": "take",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "παίρνω",
+        "παίρνεις",
+        "παίρνει",
+        "παίρνουμε",
+        "παίρνετε",
+        "παίρνουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-211",
+      "greek": "παιδί",
+      "english": "child",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "παιδί",
+        "παιδιά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-212",
+      "greek": "παλτό",
+      "english": "coat",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "παλτό",
+        "παλτά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-213",
+      "greek": "παντελόνι",
+      "english": "pants",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "παντελόνι",
+        "παντελόνια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-214",
+      "greek": "παντόφλα",
+      "english": "slipper",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "παντόφλα",
+        "παντόφλες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-215",
+      "greek": "παπούτσι",
+      "english": "shoe",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "παπούτσι",
+        "παπούτσια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-216",
+      "greek": "παππάς",
+      "english": "priest",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "παππάς",
+        "παππάδες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-217",
+      "greek": "παππούς",
+      "english": "grandfather",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "παππούς",
+        "παππούδες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-218",
+      "greek": "παράθυρο",
+      "english": "window",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "παράθυρο",
+        "παράθυρα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-219",
+      "greek": "πατέρας",
+      "english": "father",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πατέρας",
+        "πατέρες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-220",
+      "greek": "πεθερός",
+      "english": "father-in-law",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πεθερός",
+        "πεθεροί"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-221",
+      "greek": "πετσέτα",
+      "english": "towel",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πετσέτα",
+        "πετσέτες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-222",
+      "greek": "πηγαίνω",
+      "english": "go",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πηγαίνω",
+        "πηγαίνεις",
+        "πηγαίνει",
+        "πηγαίνουμε",
+        "πηγαίνετε",
+        "πηγαίνουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-223",
+      "greek": "πηγούνι",
+      "english": "chin",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πηγούνι",
+        "πηγούνια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-224",
+      "greek": "πιάτο",
+      "english": "plate",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πιάτο",
+        "πιάτα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-225",
+      "greek": "πιατάκι",
+      "english": "saucer",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πιατάκι",
+        "πιατάκια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-226",
+      "greek": "πιατέλα",
+      "english": "tray",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πιατέλα",
+        "πιατέλες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-227",
+      "greek": "πιρούνι",
+      "english": "fork",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πιρούνι",
+        "πιρούνια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-228",
+      "greek": "πιτζάμα",
+      "english": "pajamas",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πιτζάμα",
+        "πιτζάμες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-229",
+      "greek": "πλάτη",
+      "english": "back",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πλάτη",
+        "πλάτες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-230",
+      "greek": "πλυνσταριό",
+      "english": "washing-machine",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πλυνσταριό",
+        "πλυνσταριά"
+      ],
+      "notes": "corrected from \"πλυσταριό\""
+    },
+    {
+      "id": "lemma-231",
+      "greek": "ποια",
+      "english": "who",
+      "pos": "question_word",
+      "tags": [
+        "pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ποια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-232",
+      "greek": "ποιες",
+      "english": "who",
+      "pos": "question_word",
+      "tags": [
+        "pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ποιες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-233",
+      "greek": "ποιο",
+      "english": "which",
+      "pos": "question_word",
+      "tags": [
+        "pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ποιο"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-234",
+      "greek": "ποιοι",
+      "english": "who",
+      "pos": "question_word",
+      "tags": [
+        "pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ποιοι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-235",
+      "greek": "ποιος",
+      "english": "who",
+      "pos": "question_word",
+      "tags": [
+        "pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ποιος"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-236",
+      "greek": "πολύ",
+      "english": "very",
+      "pos": "adverb",
+      "tags": [
+        "amounts-and-magnitudes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πολύ"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-237",
+      "greek": "πονώ",
+      "english": "hurt",
+      "pos": "verb",
+      "tags": [
+        "group-2"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πονώ",
+        "πονάς",
+        "πονά",
+        "πονάμε",
+        "πονάτε",
+        "πονάνε"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-238",
+      "greek": "πορτοκαλί",
+      "english": "orange",
+      "pos": "adjective",
+      "tags": [
+        "colors"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πορτοκαλί",
+        "πορτοκαλί",
+        "πορτοκαλί",
+        "πορτοκαλί",
+        "πορτοκαλί",
+        "πορτοκαλί"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-239",
+      "greek": "ποτήρι",
+      "english": "glass",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ποτήρι",
+        "ποτήρια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-240",
+      "greek": "πουκάμισο",
+      "english": "shirt",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πουκάμισο",
+        "πουκάμισα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-241",
+      "greek": "πού",
+      "english": "where",
+      "pos": "question_word",
+      "tags": [
+        "location,-direction,-time,-and-space",
+        "question-words"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πού"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-242",
+      "greek": "πράσινο",
+      "english": "green",
+      "pos": "adjective",
+      "tags": [
+        "colors"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πράσινος",
+        "πράσινη",
+        "πράσινο",
+        "πράσινοι",
+        "πράσινες",
+        "πράσινα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-243",
+      "greek": "πριν",
+      "english": "before",
+      "pos": "interjection",
+      "tags": [
+        "phrases-and-interjections"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πριν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-244",
+      "greek": "πρόσωπο",
+      "english": "face",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πρόσωπο",
+        "πρόσωπα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-245",
+      "greek": "πόδι",
+      "english": "foot",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πόδι",
+        "πόδια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-246",
+      "greek": "πόρτα",
+      "english": "door",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πόρτα",
+        "πόρτες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-247",
+      "greek": "πόσα",
+      "english": "how-many",
+      "pos": "question_word",
+      "tags": [
+        "question-words"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πόσα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-248",
+      "greek": "πόσες",
+      "english": "how-many",
+      "pos": "question_word",
+      "tags": [
+        "question-words"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πόσες"
+      ],
+      "notes": "corrected from \"ποσεσ\""
+    },
+    {
+      "id": "lemma-249",
+      "greek": "πόση",
+      "english": "how-many",
+      "pos": "question_word",
+      "tags": [
+        "question-words"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πόση"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-250",
+      "greek": "πόσο",
+      "english": "how-many",
+      "pos": "question_word",
+      "tags": [
+        "question-words"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πόσο"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-251",
+      "greek": "πόσοι",
+      "english": "how-many",
+      "pos": "question_word",
+      "tags": [
+        "question-words"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πόσοι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-252",
+      "greek": "πόσος",
+      "english": "how-many",
+      "pos": "question_word",
+      "tags": [
+        "question-words"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "πόσος"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-253",
+      "greek": "ρόμπα",
+      "english": "dress",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ρόμπα",
+        "ρόμπες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-254",
+      "greek": "σάλα",
+      "english": "hall",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "σάλα",
+        "σάλες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-255",
+      "greek": "σαγιονάρα",
+      "english": "flip-flop",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "σαγιονάρα",
+        "σαγιονάρες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-256",
+      "greek": "σαγόνι",
+      "english": "jaw",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "σαγόνι",
+        "σαγόνια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-257",
+      "greek": "σακάκι",
+      "english": "jacket",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "σακάκι",
+        "σακάκια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-258",
+      "greek": "σακίδιο",
+      "english": "backpack",
+      "pos": "noun",
+      "tags": [
+        "classroom-and-office-supplies"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "σακίδιο",
+        "σακίδια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-259",
+      "greek": "σαλόνι",
+      "english": "living-room",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "σαλόνι",
+        "σαλόνια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-260",
+      "greek": "σαπούνι",
+      "english": "soap",
+      "pos": "noun",
+      "tags": [
+        "bathroom"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "σαπούνι",
+        "σαπούνια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-261",
+      "greek": "σας",
+      "english": "your",
+      "pos": "pronoun",
+      "tags": [
+        "possessive-pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "σας"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-262",
+      "greek": "σε",
+      "english": "at",
+      "pos": "preposition",
+      "tags": [
+        "prepositions"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "σε"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-263",
+      "greek": "σεντόνι",
+      "english": "sheet",
+      "pos": "noun",
+      "tags": [
+        "bedroom"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "σεντόνι",
+        "σεντόνια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-264",
+      "greek": "σκουπίζω",
+      "english": "sweep",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "σκουπίζω",
+        "σκουπίζεις",
+        "σκουπίζει",
+        "σκουπίζουμε",
+        "σκουπίζετε",
+        "σκουπίζουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-265",
+      "greek": "σκουφί",
+      "english": "cap",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "σκουφί",
+        "σκουφιά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-266",
+      "greek": "σκούρο",
+      "english": "dark",
+      "pos": "adjective",
+      "tags": [
+        "colors"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "σκούρος",
+        "σκούρη",
+        "σκούρο",
+        "σκούροι",
+        "σκούρες",
+        "σκούρα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-267",
+      "greek": "σκούφος",
+      "english": "cap",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "σκούφος",
+        "σκούφοι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-268",
+      "greek": "σορτ",
+      "english": "shorts",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "σορτ",
+        "σορτ"
+      ],
+      "notes": "corrected from \"σορτσ\""
+    },
+    {
+      "id": "lemma-269",
+      "greek": "σου",
+      "english": "your",
+      "pos": "pronoun",
+      "tags": [
+        "possessive-pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "σου"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-270",
+      "greek": "σουπιέρα",
+      "english": "soup-bowl",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "σουπιέρα",
+        "σουπιέρες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-271",
+      "greek": "σπίτι",
+      "english": "house",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "σπίτι",
+        "σπίτια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-272",
+      "greek": "στα",
+      "english": "at",
+      "pos": "preposition",
+      "tags": [
+        "prepositions"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "στα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-273",
+      "greek": "στη",
+      "english": "at",
+      "pos": "preposition",
+      "tags": [
+        "group-1",
+        "prepositions"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "στη"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-274",
+      "greek": "στην",
+      "english": "at",
+      "pos": "preposition",
+      "tags": [
+        "prepositions"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "στην"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-275",
+      "greek": "στις",
+      "english": "at",
+      "pos": "preposition",
+      "tags": [
+        "prepositions"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "στις"
+      ],
+      "notes": "corrected from \"στισ\""
+    },
+    {
+      "id": "lemma-276",
+      "greek": "στο",
+      "english": "at",
+      "pos": "preposition",
+      "tags": [
+        "prepositions"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "στο"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-277",
+      "greek": "στον",
+      "english": "at",
+      "pos": "preposition",
+      "tags": [
+        "prepositions"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "στον"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-278",
+      "greek": "στους",
+      "english": "at",
+      "pos": "preposition",
+      "tags": [
+        "prepositions"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "στους"
+      ],
+      "notes": "corrected from \"στουσ\""
+    },
+    {
+      "id": "lemma-279",
+      "greek": "στυλό",
+      "english": "pen",
+      "pos": "noun",
+      "tags": [
+        "classroom-and-office-supplies"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "στυλό",
+        "στυλό"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-280",
+      "greek": "στόμα",
+      "english": "mouth",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "στόμα",
+        "στόματα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-281",
+      "greek": "συμπέθερος",
+      "english": "in-law",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "συμπέθερος",
+        "συμπέθεροι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-282",
+      "greek": "συρτάρι",
+      "english": "drawer",
+      "pos": "noun",
+      "tags": [
+        "bathroom",
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "συρτάρι",
+        "συρτάρια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-283",
+      "greek": "σφουγγάρι",
+      "english": "sponge",
+      "pos": "noun",
+      "tags": [
+        "bathroom"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "σφουγγάρι",
+        "σφουγγάρια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-284",
+      "greek": "σύζυγος",
+      "english": "spouse",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "σύζυγος",
+        "σύζυγοι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-285",
+      "greek": "τάξη",
+      "english": "class",
+      "pos": "noun",
+      "tags": [
+        "classroom-and-office-supplies"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "τάξη",
+        "τάξεις"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-286",
+      "greek": "τέσσερα",
+      "english": "four",
+      "pos": "number",
+      "tags": [
+        "numbers"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "τέσσερις",
+        "τέσσερις",
+        "τέσσερα",
+        "τέσσερις",
+        "τέσσερις",
+        "τέσσερα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-287",
+      "greek": "τίποτα",
+      "english": "nothing",
+      "pos": "adverb",
+      "tags": [
+        "amounts-and-magnitudes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "τίποτα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-288",
+      "greek": "τα",
+      "english": "the",
+      "pos": "article",
+      "tags": [
+        "articles"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "τα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-289",
+      "greek": "Τα λέμε",
+      "english": "see-you",
+      "pos": "phrase",
+      "tags": [
+        "phrases-and-interjections"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "Τα λέμε"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-290",
+      "greek": "τακούνι",
+      "english": "heel",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "τακούνι",
+        "τακούνια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-291",
+      "greek": "ταψί",
+      "english": "pan",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ταψί",
+        "ταψιά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-292",
+      "greek": "τετράδιο",
+      "english": "notebook",
+      "pos": "noun",
+      "tags": [
+        "classroom-and-office-supplies"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "τετράδιο",
+        "τετράδια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-293",
+      "greek": "τη",
+      "english": "the",
+      "pos": "article",
+      "tags": [
+        "articles"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "τη"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-294",
+      "greek": "τηγάνι",
+      "english": "pan",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "τηγάνι",
+        "τηγάνια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-295",
+      "greek": "την",
+      "english": "the",
+      "pos": "article",
+      "tags": [
+        "articles"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "την"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-296",
+      "greek": "της",
+      "english": "her",
+      "pos": "article",
+      "tags": [
+        "articles",
+        "possessive-pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "της"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-297",
+      "greek": "τι",
+      "english": "what",
+      "pos": "question_word",
+      "tags": [
+        "question-words"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "τι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-298",
+      "greek": "τις",
+      "english": "the",
+      "pos": "article",
+      "tags": [
+        "articles"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "τις"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-299",
+      "greek": "το",
+      "english": "the",
+      "pos": "article",
+      "tags": [
+        "articles"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "το"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-300",
+      "greek": "τοίχος",
+      "english": "wall",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "τοίχος",
+        "τοίχοι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-301",
+      "greek": "τον",
+      "english": "the",
+      "pos": "article",
+      "tags": [
+        "articles"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "τον"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-302",
+      "greek": "του",
+      "english": "his",
+      "pos": "article",
+      "tags": [
+        "articles",
+        "possessive-pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "του"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-303",
+      "greek": "τουαλέτα",
+      "english": "toilet",
+      "pos": "noun",
+      "tags": [
+        "bathroom",
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "τουαλέτα",
+        "τουαλέτες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-304",
+      "greek": "τους",
+      "english": "the",
+      "pos": "article",
+      "tags": [
+        "articles",
+        "possessive-pronouns"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "τους"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-305",
+      "greek": "τρία",
+      "english": "three",
+      "pos": "number",
+      "tags": [
+        "numbers"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "τρία",
+        "τρία",
+        "τρία",
+        "τρία",
+        "τρία",
+        "τρία"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-306",
+      "greek": "τραπέζι",
+      "english": "table",
+      "pos": "noun",
+      "tags": [
+        "furniture"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "τραπέζι",
+        "τραπέζια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-307",
+      "greek": "τραπεζαρία",
+      "english": "dining-room",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "τραπεζαρία",
+        "τραπεζαρίες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-308",
+      "greek": "τραπεζομάντηλο",
+      "english": "tablecloth",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "τραπεζομάντηλο",
+        "τραπεζομάντηλα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-309",
+      "greek": "τριάντα",
+      "english": "thirty",
+      "pos": "number",
+      "tags": [
+        "numbers"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "τριάντα",
+        "τριάντα",
+        "τριάντα",
+        "τριάντα",
+        "τριάντα",
+        "τριάντα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-310",
+      "greek": "τσάντα",
+      "english": "bag",
+      "pos": "noun",
+      "tags": [
+        "classroom-and-office-supplies"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "τσάντα",
+        "τσάντες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-311",
+      "greek": "των",
+      "english": "the",
+      "pos": "article",
+      "tags": [
+        "articles"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "των"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-312",
+      "greek": "υπνοδωμάτιο",
+      "english": "bedroom",
+      "pos": "noun",
+      "tags": [
+        "house-and-rooms"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "υπνοδωμάτιο",
+        "υπνοδωμάτια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-313",
+      "greek": "υπολογιστής",
+      "english": "computer",
+      "pos": "noun",
+      "tags": [
+        "bedroom"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "υπολογιστής",
+        "υπολογιστές"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-314",
+      "greek": "φίλος",
+      "english": "friend",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "φίλος",
+        "φίλοι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-315",
+      "greek": "φανέλα",
+      "english": "jersey",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "φανέλα",
+        "φανέλες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-316",
+      "greek": "φλιτζάνι",
+      "english": "cup",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "φλιτζάνι",
+        "φλιτζάνια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-317",
+      "greek": "φοράω",
+      "english": "wear",
+      "pos": "verb",
+      "tags": [
+        "group-2"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "φοράω",
+        "φοράς",
+        "φορά",
+        "φοράμε",
+        "φοράτε",
+        "φοράνε"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-318",
+      "greek": "φορώ",
+      "english": "wear",
+      "pos": "verb",
+      "tags": [
+        "group-2"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "φορώ",
+        "φοράς",
+        "φορά",
+        "φοράμε",
+        "φοράτε",
+        "φοράνε"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-319",
+      "greek": "φουστάνι",
+      "english": "dress",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "φουστάνι",
+        "φουστάνια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-320",
+      "greek": "φούρνος",
+      "english": "oven",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "φούρνος",
+        "φούρνοι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-321",
+      "greek": "φούστα",
+      "english": "skirt",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "φούστα",
+        "φούστες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-322",
+      "greek": "φτέρνα",
+      "english": "heel",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "φτέρνα",
+        "φτέρνες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-323",
+      "greek": "φόρεμα",
+      "english": "dress",
+      "pos": "noun",
+      "tags": [
+        "clothes"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "φόρεμα",
+        "φορέματα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-324",
+      "greek": "χάρακας",
+      "english": "ruler",
+      "pos": "noun",
+      "tags": [
+        "classroom-and-office-supplies"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "χάρακας",
+        "χάρακες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-325",
+      "greek": "χέρι",
+      "english": "hand",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "χέρι",
+        "χέρια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-326",
+      "greek": "χαλί",
+      "english": "carpet",
+      "pos": "noun",
+      "tags": [
+        "bathroom"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "χαλί",
+        "χαλιά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-327",
+      "greek": "χαρτί",
+      "english": "paper",
+      "pos": "noun",
+      "tags": [
+        "classroom-and-office-supplies"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "χαρτί",
+        "χαρτιά"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-328",
+      "greek": "χείλος",
+      "english": "lip",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "χείλος",
+        "χείλη"
+      ],
+      "notes": "corrected from \"χείλη\""
+    },
+    {
+      "id": "lemma-329",
+      "greek": "χρώμα",
+      "english": "color",
+      "pos": "noun",
+      "tags": [
+        "colors"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "χρώμα",
+        "χρώματα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-330",
+      "greek": "χτένα",
+      "english": "comb",
+      "pos": "noun",
+      "tags": [
+        "bathroom"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "χτένα",
+        "χτένες"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-331",
+      "greek": "χτενίζω",
+      "english": "comb",
+      "pos": "verb",
+      "tags": [
+        "group-1"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "χτενίζω",
+        "χτενίζεις",
+        "χτενίζει",
+        "χτενίζουμε",
+        "χτενίζετε",
+        "χτενίζουν"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-332",
+      "greek": "ψαλίδι",
+      "english": "scissors",
+      "pos": "noun",
+      "tags": [
+        "classroom-and-office-supplies"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ψαλίδι",
+        "ψαλίδια"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-333",
+      "greek": "ψυγείο",
+      "english": "fridge",
+      "pos": "noun",
+      "tags": [
+        "kitchen"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ψυγείο",
+        "ψυγεία"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-334",
+      "greek": "όνομα",
+      "english": "name",
+      "pos": "noun",
+      "tags": [
+        "people-and-family"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "όνομα",
+        "ονόματα"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-335",
+      "greek": "όχι",
+      "english": "no",
+      "pos": "interjection",
+      "tags": [
+        "phrases-and-interjections"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "όχι"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lemma-336",
+      "greek": "ώμος",
+      "english": "shoulder",
+      "pos": "noun",
+      "tags": [
+        "body-parts"
+      ],
+      "frequency": "A1",
+      "forms": [
+        "ώμος",
+        "ώμοι"
+      ],
+      "notes": "corrected from \"ώμοσ\""
+    }
+  ]
+}

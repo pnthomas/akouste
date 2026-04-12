@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akouste</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <h1 class="title">Akouste</h1>
+        <p class="tagline">Listen first. Greek stays hidden until you ask.</p>
+      </header>
+
+      <p id="status" class="status" role="status"></p>
+
+      <section class="card" aria-live="polite">
+        <p class="label">Greek</p>
+        <p id="greek-display" class="greek-display" data-state="idle">—</p>
+
+        <div class="action-groups">
+          <div class="action-group play-group">
+            <button type="button" id="btn-play" class="btn primary">Play</button>
+            <button type="button" id="btn-reveal" class="btn" disabled>Show Greek</button>
+          </div>
+          <div class="action-group response-group">
+            <button
+              type="button"
+              id="btn-understand"
+              class="btn positive"
+              disabled
+              title="I understand"
+            >
+              καταλαβαίνω
+            </button>
+            <button
+              type="button"
+              id="btn-dont-understand"
+              class="btn negative"
+              disabled
+              title="I don't understand"
+            >
+              δεν καταλαβαίνω
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
