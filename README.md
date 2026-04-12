@@ -3,6 +3,8 @@
 Akouste is a listening-comprehension practice app for Greek (ákouste means "listen" in Greek).  
 Its goal is to make listening practice low-stress and confidence-building, especially for beginners following a classroom course.
 
+<img width="491" height="435" alt="image" src="https://github.com/user-attachments/assets/8e100d5f-3eb7-4f45-bf47-be5f68c45e6c" />
+
 ## Purpose
 
 - **Focus on listening, not speaking:** The primary skill is listening comprehension; speaking is secondary and comes later via voice answers.
