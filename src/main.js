@@ -1,13 +1,31 @@
 import { initListen } from "./listen.js";
 import { initMcq } from "./mcq.js";
+import { createRecurrenceScheduler } from "./scheduler.js";
 import { initVoicesListener } from "./speech.js";
 
 const WORDLIST_URL = `${import.meta.env.BASE_URL}data/wordlist.json`;
 
 const statusEl = document.getElementById("status");
+const wordlistMetaEl = document.getElementById("wordlist-meta");
 
 function setStatus(msg) {
   if (statusEl) statusEl.textContent = msg;
+}
+
+function setWordlistMeta(data, entries) {
+  if (!wordlistMetaEl) return;
+  const fetchedAtRaw = data?.meta?.fetchedAt;
+  const fetchedAt = fetchedAtRaw ? new Date(fetchedAtRaw) : null;
+  const hasValidDate = fetchedAt instanceof Date && !Number.isNaN(fetchedAt.valueOf());
+  const dateText = hasValidDate
+    ? new Intl.DateTimeFormat("en-US", {
+        month: "numeric",
+        day: "numeric",
+        year: "2-digit",
+      }).format(fetchedAt)
+    : "unknown";
+  const lemmaCount = new Set(entries.map((entry) => entry.greek.trim()).filter(Boolean)).size;
+  wordlistMetaEl.textContent = `Wordlist ${dateText} Lemmata ${lemmaCount}`;
 }
 
 function setupModeTabs() {
@@ -46,6 +64,7 @@ async function main() {
       throw new Error("Word list is empty");
     }
     entries = list;
+    setWordlistMeta(data, entries);
   } catch (e) {
     setStatus(e instanceof Error ? e.message : "Could not load vocabulary.");
     const ids = [
@@ -55,6 +74,8 @@ async function main() {
       "btn-dont-understand",
       "mcq-play",
       "mcq-reveal",
+      "mcq-guessed",
+      "mcq-know",
       "mcq-next",
     ];
     for (const id of ids) {
@@ -65,8 +86,9 @@ async function main() {
   }
 
   initVoicesListener();
-  initListen({ entries });
-  initMcq({ entries });
+  const scheduler = createRecurrenceScheduler(entries);
+  initListen({ entries, scheduler });
+  initMcq({ entries, scheduler });
 }
 
 main();

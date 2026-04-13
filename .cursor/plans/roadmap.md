@@ -46,7 +46,7 @@ Canonical **capabilities and phase order** for Akouste. High-level **what/why** 
 | **Goal** | Persist enough signal for **spaced repetition** and “what to drill next.” |
 | **When** | As soon as Phase 2 behaves reliably; refine alongside Phase 3 (MCQ) as modes grow. |
 | **Storage** | Browser-only (e.g. `localStorage` / IndexedDB as needed); no accounts. |
-| **Deliverables** | Per-item outcomes, scheduling hooks for SRS; keep schema open for Phase 9. |
+| **Deliverables** | Per-item outcomes, scheduling hooks for SRS; keep schema open for Phase 9. In the MCQ tab, add a **Guessed it** button (dim goldenrod, coordinated with existing palette) and a **Know it** button (same green as **I understand**). Scoring effect on recurrence weight: **Guessed it** adds **0.5 × wrong-answer value**; **Know it** subtracts **2 × right-answer value**. |
 
 ---
 

@@ -10,6 +10,8 @@
   --positive-hover: #3d8f75;
   --negative: #9a4d42;
   --negative-hover: #b85d50;
+  --guessed: #806f2d;
+  --guessed-hover: #9a8737;
   --radius: 12px;
   font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
 }
@@ -26,6 +28,18 @@ body {
   background: radial-gradient(ellipse 120% 80% at 50% -20%, #243044 0%, var(--bg) 55%);
   color: var(--text);
   line-height: 1.5;
+}
+
+.wordlist-meta {
+  position: fixed;
+  right: 0.6rem;
+  bottom: 0.35rem;
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.01em;
+  color: rgba(139, 152, 165, 0.72);
+  pointer-events: none;
 }
 
 #app {
@@ -261,6 +275,12 @@ body {
   line-height: 1.25;
 }
 
+.response-group .mcq-next-wide {
+  flex: 1 1 100%;
+  min-width: 100%;
+  text-align: center;
+}
+
 .btn {
   padding: 0.65rem 1rem;
   font: inherit;
@@ -312,4 +332,15 @@ body {
 .btn.negative:hover:not(:disabled) {
   background: var(--negative-hover);
   border-color: rgba(184, 93, 80, 0.8);
+}
+
+.btn.guessed {
+  border-color: rgba(128, 111, 45, 0.75);
+  background: var(--guessed);
+  color: #f7f2dd;
+}
+
+.btn.guessed:hover:not(:disabled) {
+  background: var(--guessed-hover);
+  border-color: rgba(154, 135, 55, 0.85);
 }

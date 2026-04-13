@@ -2,8 +2,8 @@
   "meta": {
     "source": "google-sheet-published-csv",
     "csvUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSp4GDYcJO0yfzZWtxQSfEMjE6n6-KIvbPbc91_COg5D59EubY7mpJwoVEAKdggc1x8l0s9c9k2CEDj/pub?output=csv",
-    "fetchedAt": "2026-04-12T05:15:49.788091Z",
-    "entryCount": 426
+    "fetchedAt": "2026-04-13T06:37:14.472466Z",
+    "entryCount": 429
   },
   "entries": [
     {
@@ -237,613 +237,625 @@
     {
       "greek": "Ψαλίδι",
       "english": "scissors/shears",
-      "topic": "Classroom and office supplies",
+      "topic": "Classroom and Office",
       "category": "Nouns"
     },
     {
       "greek": "ξύστρα",
       "english": "sharpener/scraper",
-      "topic": "Classroom and office supplies",
+      "topic": "Classroom and Office",
       "category": "Nouns"
     },
     {
       "greek": "βιβλίο",
       "english": "book",
-      "topic": "Classroom and office supplies",
+      "topic": "Classroom and Office",
       "category": "Nouns"
     },
     {
       "greek": "μολύβι",
       "english": "pencil",
-      "topic": "Classroom and office supplies",
+      "topic": "Classroom and Office",
       "category": "Nouns"
     },
     {
       "greek": "μαρκαδόρος",
       "english": "marker",
-      "topic": "Classroom and office supplies",
+      "topic": "Classroom and Office",
       "category": "Nouns"
     },
     {
       "greek": "κόλλα",
       "english": "glue",
-      "topic": "Classroom and office supplies",
+      "topic": "Classroom and Office",
       "category": "Nouns"
     },
     {
       "greek": "γόμα",
       "english": "eraser",
-      "topic": "Classroom and office supplies",
+      "topic": "Classroom and Office",
       "category": "Nouns"
     },
     {
       "greek": "τετράδιο",
       "english": "notebook",
-      "topic": "Classroom and office supplies",
+      "topic": "Classroom and Office",
       "category": "Nouns"
     },
     {
       "greek": "στυλό",
       "english": "pen",
-      "topic": "Classroom and office supplies",
+      "topic": "Classroom and Office",
       "category": "Nouns"
     },
     {
       "greek": "κασετίνα",
       "english": "casket/pencil case",
-      "topic": "Classroom and office supplies",
+      "topic": "Classroom and Office",
       "category": "Nouns"
     },
     {
       "greek": "θρανίο",
       "english": "desk",
-      "topic": "Classroom and office supplies",
+      "topic": "Classroom and Office",
       "category": "Nouns"
     },
     {
       "greek": "χάρακας",
       "english": "ruler",
-      "topic": "Classroom and office supplies",
+      "topic": "Classroom and Office",
       "category": "Nouns"
     },
     {
       "greek": "σακίδιο",
       "english": "rucksack/backpack",
-      "topic": "Classroom and office supplies",
+      "topic": "Classroom and Office",
       "category": "Nouns"
     },
     {
       "greek": "τσάντα",
       "english": "bag",
-      "topic": "Classroom and office supplies",
+      "topic": "Classroom and Office",
       "category": "Nouns"
     },
     {
       "greek": "πίνακας",
       "english": "panel/painting",
-      "topic": "Classroom and office supplies",
+      "topic": "Classroom and Office",
       "category": "Nouns"
     },
     {
       "greek": "αίθουσα",
       "english": "room",
-      "topic": "Classroom and office supplies",
+      "topic": "Classroom and Office",
       "category": "Nouns"
     },
     {
       "greek": "χαρτί",
       "english": "paper",
-      "topic": "Classroom and office supplies",
+      "topic": "Classroom and Office",
       "category": "Nouns"
     },
     {
       "greek": "τάξη",
       "english": "class",
-      "topic": "Classroom and office supplies",
+      "topic": "Classroom and Office",
       "category": "Nouns"
     },
     {
       "greek": "καρέκλα",
       "english": "chair",
-      "topic": "Furniture",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "τραπέζι",
       "english": "table",
-      "topic": "Furniture",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "γραφείο",
       "english": "office",
-      "topic": "Furniture",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "Παράθυρο",
       "english": "window",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "πόρτα",
       "english": "door",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "πάτωμα",
       "english": "floor",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "τοίχος",
       "english": "wall",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "πλυσταριό",
       "english": "laundry",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "διάδρομος",
       "english": "passageway/hallway",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "βεράντα",
       "english": "veranda",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "αυλή",
       "english": "courtyard",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "κήπος",
       "english": "garden",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "μπάνιο",
       "english": "bathroom",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "τραπεζαρία",
       "english": "dining room",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "κουζίνα",
       "english": "kitchen",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "τουαλέτα",
       "english": "toilet",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "σαλόνι",
       "english": "sitting room",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "σάλα",
       "english": "hall",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "μπαλκόνι",
       "english": "balcony",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "γκαράζ",
       "english": "garage",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "καθιστικό",
       "english": "living room",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "σπίτι",
       "english": "home",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "δωμάτιο",
       "english": "room",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "κρεβατοκάμαρα",
       "english": "bedroom",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "υπνοδωμάτιο",
       "english": "bedroom",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "κουταλάκι",
       "english": "teaspoon",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "πετσέτα",
       "english": "towel",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "σουπιέρα",
       "english": "tureen/soup bowl",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "κατσαρόλα",
       "english": "pot",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "τηγάνι",
       "english": "pan",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "τραπεζομάντηλο",
       "english": "tablecloth",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "καταψύκτης",
       "english": "freezer",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "πιάτο",
       "english": "dish",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "πιατέλα",
       "english": "platter",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "πιατάκι",
       "english": "saucer",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "ταψί",
       "english": "pan",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "φούρνος",
       "english": "oven",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "κουζίνα",
       "english": "kitchen",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "ψυγείο",
       "english": "refrigerator",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "νεροχύτης",
       "english": "sink",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "μικροκυμάτων",
       "english": "microwave",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "φλιτζάνι",
       "english": "cup",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "ποτήρι",
       "english": "glass",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "πιρούνι",
       "english": "fork",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "ντουλάπι",
       "english": "cabinet",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "συρτάρι",
       "english": "drawer",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "μαχύρη",
       "english": "knife",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "κουτάλι",
       "english": "spoon",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "κουτάλα",
       "english": "ladle",
-      "topic": "House and rooms: Kitchen",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "συρτάρι",
       "english": "drawer",
-      "topic": "House and rooms: Bathroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "μπανιέρα",
       "english": "bathtub",
-      "topic": "House and rooms: Bathroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "χαλί",
       "english": "carpet",
-      "topic": "House and rooms: Bathroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "καθρέφτης",
       "english": "mirror",
-      "topic": "House and rooms: Bathroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "ντους",
       "english": "shower",
-      "topic": "House and rooms: Bathroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "σαπούνι",
       "english": "soap",
-      "topic": "House and rooms: Bathroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "σφουγγάρι",
       "english": "sponge",
-      "topic": "House and rooms: Bathroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "βρύση",
       "english": "faucet",
-      "topic": "House and rooms: Bathroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "τουαλέτα",
       "english": "toilet",
-      "topic": "House and rooms: Bathroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "νερό",
       "english": "water",
-      "topic": "House and rooms: Bathroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "νιπτήρας",
       "english": "washbasin",
-      "topic": "House and rooms: Bathroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "χτένα",
       "english": "comb",
-      "topic": "House and rooms: Bathroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "βούρτσα",
       "english": "brush",
-      "topic": "House and rooms: Bathroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "κομοδίνο",
       "english": "bedside table",
-      "topic": "House and rooms: Bathroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "κρεβάτι",
       "english": "bed",
-      "topic": "House and rooms: Bedroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "πάπλωμα",
       "english": "quilt",
-      "topic": "House and rooms: Bedroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "μαξιλάρι",
       "english": "pillow",
-      "topic": "House and rooms: Bedroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "σεντόνι",
       "english": "sheet",
-      "topic": "House and rooms: Bedroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "ντουλάπα",
       "english": "wardrobe",
-      "topic": "House and rooms: Bedroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "υπολογιστής",
       "english": "computer",
-      "topic": "House and rooms: Bedroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "σκαλοπάτι",
       "english": "step/rung",
-      "topic": "House and rooms: Bedroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
-      "greek": "σκαάλα / σκάλεσ",
-      "english": "staircase/stairs",
-      "topic": "House and rooms: Bedroom",
+      "greek": "σκαάλα",
+      "english": "staircase",
+      "topic": "House and Rooms",
+      "category": "Nouns"
+    },
+    {
+      "greek": "σκάλεσ",
+      "english": "stairs",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "διώροφο",
       "english": "two level",
-      "topic": "House and rooms: Bedroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
-      "greek": "μονόκλινο / μονοκατακία",
+      "greek": "μονόκλινο",
       "english": "detached residence",
-      "topic": "House and rooms: Bedroom",
+      "topic": "House and Rooms",
+      "category": "Nouns"
+    },
+    {
+      "greek": "μονοκατακία",
+      "english": "detached residence",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "πολθκατοικία",
       "english": "apartment building/multi residence",
-      "topic": "House and rooms: Bedroom",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "διαμέρισμα",
       "english": "apartment",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "κουρτίνα",
       "english": "curtain",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "καναπές",
       "english": "sofa",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "πολυθρόνα",
       "english": "armchair",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "πορτατίφ",
       "english": "reading lamp",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "λάμπα",
       "english": "lamp",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "τηλεόραση",
       "english": "TV",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "σόμπα",
       "english": "heater",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "θέρμαση",
       "english": "heater",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
       "greek": "χαλί",
       "english": "carpet",
-      "topic": "House and rooms",
+      "topic": "House and Rooms",
       "category": "Nouns"
     },
     {
@@ -889,26 +901,26 @@
       "category": "Nouns"
     },
     {
-      "greek": "Ανθρακούχο νερό",
-      "english": "Sparkling water",
+      "greek": "aνθρακούχο νερό",
+      "english": "carbonated water",
       "topic": "Food and Drink",
       "category": "Nouns"
     },
     {
-      "greek": "Μεταλλικό νερό",
-      "english": "Mineral water",
+      "greek": "mεταλλικό νερό",
+      "english": "mineral water",
       "topic": "Food and Drink",
       "category": "Nouns"
     },
     {
-      "greek": "Καφές",
-      "english": "Coffee",
+      "greek": "kαφές",
+      "english": "coffee",
       "topic": "Food and Drink",
       "category": "Nouns"
     },
     {
-      "greek": "Τσάι",
-      "english": "Tea",
+      "greek": "tσάι",
+      "english": "tea",
       "topic": "Food and Drink",
       "category": "Nouns"
     },
@@ -919,26 +931,26 @@
       "category": "Nouns"
     },
     {
-      "greek": "Κρασί",
-      "english": "Wine",
+      "greek": "kρασί",
+      "english": "wine",
       "topic": "Food and Drink",
       "category": "Nouns"
     },
     {
-      "greek": "Μπύρα",
-      "english": "Beer",
+      "greek": "mπύρα",
+      "english": "beer",
       "topic": "Food and Drink",
       "category": "Nouns"
     },
     {
-      "greek": "Κοκτέιλ",
-      "english": "Cocktail",
+      "greek": "κοκτέιλ",
+      "english": "cocktail",
       "topic": "Food and Drink",
       "category": "Nouns"
     },
     {
-      "greek": "Σκέτος",
-      "english": "Plain",
+      "greek": "σκέτος",
+      "english": "plain",
       "topic": "Food and Drink",
       "category": "Nouns"
     },
@@ -950,26 +962,26 @@
     },
     {
       "greek": "μέτριοσ",
-      "english": "mediocre",
+      "english": "medium-sweet",
       "topic": "Food and Drink",
       "category": "Nouns"
     },
     {
-      "greek": "γλθκόσ",
-      "english": "English",
+      "greek": "γλυκόσ",
+      "english": "sweet",
       "topic": "Food and Drink",
       "category": "Nouns"
     },
     {
       "greek": "ερώτηση",
       "english": "question",
-      "topic": "Question",
+      "topic": "Questions",
       "category": "Noun"
     },
     {
       "greek": "για τι",
       "english": "why",
-      "topic": "Question",
+      "topic": "Questions",
       "category": "Function Words"
     },
     {
@@ -1683,271 +1695,271 @@
     {
       "greek": "έχω",
       "english": "I have",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "κάνω",
       "english": "I do",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "θέλω",
       "english": "I want",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "βάζω",
       "english": "I put",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "βάνω",
       "english": "I put",
-      "topic": "Group 2",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "ξέρω",
       "english": "I know",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "πηγαίνω",
       "english": "I go",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "κατίζω",
       "english": "I descend",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "καθαρίζω",
       "english": "I clean",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "βουρτσίζω",
       "english": "I brush",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "ανοίγω",
       "english": "I open",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "μένω",
       "english": "I stay",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "παίρνω",
       "english": "I take",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "διαβάζω",
       "english": "I read",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "δουλεύω",
       "english": "I work",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "βγάζω",
       "english": "I remove",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "γράφω",
       "english": "I write",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "αγοράζω",
       "english": "I buy",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "μπαίνω",
       "english": "I enter",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "βλέπω",
       "english": "I see",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "σκουπίζω",
       "english": "I wipe",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "βγαίνω",
       "english": "I go out",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "παίζω",
       "english": "I play",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "χτενίζω",
       "english": "I comb",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "εξετάζω",
       "english": "I examine",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "καταλαβαίνω",
       "english": "I understand",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "αρχίζω",
       "english": "I start",
-      "topic": "Group 1",
+      "topic": "Group 1 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "φοράω",
       "english": "I wear",
-      "topic": "Group 2",
+      "topic": "Group 2 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "μιλάω",
       "english": "I speak",
-      "topic": "Group 2",
+      "topic": "Group 2 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "πονάω",
       "english": "I hurt",
-      "topic": "Group 2",
+      "topic": "Group 2 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "βοηθάω",
       "english": "I help",
-      "topic": "Group 2",
+      "topic": "Group 2 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "ξεχνάω",
       "english": "I forget",
-      "topic": "Group 2",
+      "topic": "Group 2 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "κρατάω",
       "english": "I hold/I keep",
-      "topic": "Group 2",
+      "topic": "Group 2 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "χαιρετάω",
       "english": "I greet",
-      "topic": "Group 2",
+      "topic": "Group 2 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "ροτάω",
       "english": "I ask (a question)",
-      "topic": "Group 2",
+      "topic": "Group 2 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "ζητάω",
       "english": "I request",
-      "topic": "Group 2",
+      "topic": "Group 2 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "απαντάω",
       "english": "I respond",
-      "topic": "Group 2",
+      "topic": "Group 2 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "πουλάω",
       "english": "I sell",
-      "topic": "Group 2",
+      "topic": "Group 2 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "προτιμάω",
       "english": "I prefer",
-      "topic": "Group 2",
+      "topic": "Group 2 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "πρεnάω",
       "english": "I pass by",
-      "topic": "Group 2",
+      "topic": "Group 2 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "αγαπάω",
       "english": "I love",
-      "topic": "Group 2",
+      "topic": "Group 2 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "κατεβαίνω",
       "english": "I descend",
-      "topic": "Group 1",
+      "topic": "Group 2 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "ανεβαίνω",
       "english": "I ascend",
-      "topic": "Group 1",
+      "topic": "Group 2 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "διδάσκω",
       "english": "I teach",
-      "topic": "Group 1",
+      "topic": "Group 2 Verbs",
       "category": "Verbs"
     },
     {
       "greek": "πίνω",
       "english": "I drink",
-      "topic": "Group 1",
+      "topic": "Group 2 Verbs",
       "category": "Verbs"
     },
     {
@@ -1959,55 +1971,61 @@
     {
       "greek": "άγαμοσ",
       "english": "unmarried",
-      "topic": "People & Relationships",
+      "topic": "People and Family",
       "category": "Nouns"
     },
     {
       "greek": "ανύπανδοσ",
       "english": "unmarried",
-      "topic": "People & Relationships",
+      "topic": "People and Family",
       "category": "Nouns"
     },
     {
       "greek": "ανύπαντρη",
       "english": "unmarried",
-      "topic": "People & Relationships",
+      "topic": "People and Family",
       "category": "Nouns"
     },
     {
       "greek": "ελεύθερος",
       "english": "single",
-      "topic": "People & Relationships",
+      "topic": "People and Family",
       "category": "Nouns"
     },
     {
       "greek": "ελεύθερη",
       "english": "single",
-      "topic": "People & Relationships",
+      "topic": "People and Family",
       "category": "Nouns"
     },
     {
-      "greek": "χωρισμένοσ/η",
+      "greek": "χωρισμένοσ",
       "english": "separated",
-      "topic": "People & Relationships",
+      "topic": "People and Family",
       "category": "Nouns"
     },
     {
       "greek": "διαζύγιο",
       "english": "divorce",
-      "topic": "People & Relationships",
+      "topic": "People and Family",
       "category": "Nouns"
     },
     {
-      "greek": "χήροσ/α",
-      "english": "widower/widow",
-      "topic": "People & Relationships",
+      "greek": "χήροσ",
+      "english": "widower",
+      "topic": "People and Family",
+      "category": "Nouns"
+    },
+    {
+      "greek": "χήροα",
+      "english": "widow",
+      "topic": "People and Family",
       "category": "Nouns"
     },
     {
       "greek": "ερώτηση",
       "english": "question",
-      "topic": "People & Relationships",
+      "topic": "People and Family",
       "category": "Nouns"
     },
     {
@@ -2203,8 +2221,8 @@
       "category": "Function Words"
     },
     {
-      "greek": "Η",
-      "english": "OR",
+      "greek": "ή",
+      "english": "or",
       "topic": "Articles: Nominative",
       "category": "Function Words"
     },
@@ -2317,8 +2335,8 @@
       "category": "Function Words"
     },
     {
-      "greek": "στουσ",
-      "english": "stos",
+      "greek": "στους",
+      "english": "to the",
       "topic": "Prepositions",
       "category": "Function Words"
     },
@@ -2391,49 +2409,49 @@
     {
       "greek": "Τι",
       "english": "What",
-      "topic": "Question words",
+      "topic": "Questions",
       "category": "Function Words"
     },
     {
       "greek": "πού",
       "english": "where",
-      "topic": "Question words",
+      "topic": "Questions",
       "category": "Function Words"
     },
     {
       "greek": "Πόσος",
       "english": "How much",
-      "topic": "Question words",
+      "topic": "Questions",
       "category": "Function Words"
     },
     {
-      "greek": "πόση",
-      "english": "",
-      "topic": "Question words",
+      "greek": "πoσή",
+      "english": "How much",
+      "topic": "Questions",
       "category": "Function Words"
     },
     {
       "greek": "πόσο",
       "english": "amount",
-      "topic": "Question words",
+      "topic": "Questions",
       "category": "Function Words"
     },
     {
       "greek": "πόσοι",
       "english": "how many",
-      "topic": "Question words",
+      "topic": "Questions",
       "category": "Function Words"
     },
     {
       "greek": "ποσεσ",
       "english": "how much",
-      "topic": "Question words",
+      "topic": "Questions",
       "category": "Function Words"
     },
     {
       "greek": "πόσα",
       "english": "How many",
-      "topic": "Question words",
+      "topic": "Questions",
       "category": "Function Words"
     },
     {
@@ -2535,32 +2553,32 @@
     {
       "greek": "λέμε",
       "english": "we say",
-      "topic": "",
-      "category": "Phrases and Interjections"
+      "topic": "Phrases and Interjections",
+      "category": "Idioms"
     },
     {
       "greek": "πάμε",
       "english": "let's go",
-      "topic": "",
-      "category": "Phrases and Interjections"
+      "topic": "Phrases and Interjections",
+      "category": "Idioms"
     },
     {
       "greek": "μάλιστα",
       "english": "indeed",
-      "topic": "",
-      "category": "Phrases and Interjections"
+      "topic": "Phrases and Interjections",
+      "category": "Idioms"
     },
     {
       "greek": "λοιπόν",
       "english": "Well",
-      "topic": "",
-      "category": "Phrases and Interjections"
+      "topic": "Phrases and Interjections",
+      "category": "Idioms"
     },
     {
       "greek": "πριν",
       "english": "before",
-      "topic": "",
-      "category": "Preposition"
+      "topic": "Preposition",
+      "category": "Function Words"
     }
   ]
 }

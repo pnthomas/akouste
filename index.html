@@ -59,8 +59,10 @@
             <button type="button" id="mcq-play" class="btn primary">Play</button>
             <button type="button" id="mcq-reveal" class="btn" disabled>Show Greek</button>
           </div>
-          <div class="action-group">
-            <button type="button" id="mcq-next" class="btn">Next question</button>
+          <div class="action-group response-group">
+            <button type="button" id="mcq-guessed" class="btn guessed">Guessed it</button>
+            <button type="button" id="mcq-know" class="btn positive">Know it</button>
+            <button type="button" id="mcq-next" class="btn mcq-next-wide">Next question</button>
           </div>
         </div>
       </section>
@@ -110,6 +112,7 @@
         </div>
       </section>
     </div>
+    <p id="wordlist-meta" class="wordlist-meta" aria-live="polite"></p>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

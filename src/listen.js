@@ -5,8 +5,9 @@ import { speakGreek } from "./speech.js";
 /**
  * @param {object} opts
  * @param {WordEntry[]} opts.entries
+ * @param {{ pick: (pool: WordEntry[]) => WordEntry | null, record: (greek: string, outcome: "correct" | "wrong" | "guessed" | "know") => void }} opts.scheduler
  */
-export function initListen({ entries }) {
+export function initListen({ entries, scheduler }) {
   /** @type {WordEntry | null} */
   let current = null;
   /** @type {'idle' | 'playing' | 'hidden' | 'revealed'} */
@@ -17,6 +18,8 @@ export function initListen({ entries }) {
   let englishShown = false;
   /** Bumps when starting or invalidating TTS so stale `onend` handlers are ignored. */
   let speakSession = 0;
+  /** Prevent double scoring for the same word. */
+  let scoredCurrent = false;
 
   const greekEl = document.getElementById("greek-display");
   const englishEl = document.getElementById("listen-english-display");
@@ -24,10 +27,6 @@ export function initListen({ entries }) {
   const btnReveal = document.getElementById("btn-reveal");
   const btnUnderstand = document.getElementById("btn-understand");
   const btnDontUnderstand = document.getElementById("btn-dont-understand");
-
-  function sameEntry(a, b) {
-    return a.greek === b.greek && a.english === b.english;
-  }
 
   function setEnglishPanel() {
     if (!englishEl) return;
@@ -111,28 +110,16 @@ export function initListen({ entries }) {
     if (btnDontUnderstand) btnDontUnderstand.disabled = !ok;
   }
 
-  function randomEntry() {
-    if (entries.length === 0) return null;
-    const i = Math.floor(Math.random() * entries.length);
-    return entries[i];
-  }
-
-  function nextRandomEntry(avoid) {
-    if (entries.length === 0) return null;
-    if (entries.length === 1) return entries[0];
-    let next;
-    for (let n = 0; n < 64; n++) {
-      next = randomEntry();
-      if (!avoid || !sameEntry(next, avoid)) break;
-    }
-    return next;
+  function pickEntry() {
+    return scheduler.pick(entries);
   }
 
   function onPlay() {
     if (entries.length === 0) return;
     if (!current) {
-      current = randomEntry();
+      current = pickEntry();
       updateResponseButtons();
+      if (!current) return;
     }
     const prePlay = greekUiState;
     const session = ++speakSession;
@@ -178,9 +165,10 @@ export function initListen({ entries }) {
     if (entries.length === 0) return;
     speakSession++;
     speechSynthesis.cancel();
-    current = nextRandomEntry(current);
+    current = pickEntry();
     hasRevealed = false;
     englishShown = false;
+    scoredCurrent = false;
     if (btnReveal) btnReveal.textContent = "Show Greek";
     greekUiState = "idle";
     if (btnPlay) btnPlay.disabled = false;
@@ -198,6 +186,10 @@ export function initListen({ entries }) {
     if (!englishShown) {
       speakSession++;
       speechSynthesis.cancel();
+      if (!scoredCurrent) {
+        scheduler.record(current.greek, "wrong");
+        scoredCurrent = true;
+      }
       englishShown = true;
       hasRevealed = true;
       greekUiState = "revealed";
@@ -213,7 +205,15 @@ export function initListen({ entries }) {
 
   btnPlay.addEventListener("click", onPlay);
   btnReveal.addEventListener("click", onRevealClick);
-  if (btnUnderstand) btnUnderstand.addEventListener("click", goToNextWordAndPlay);
+  if (btnUnderstand) {
+    btnUnderstand.addEventListener("click", () => {
+      if (current && !scoredCurrent) {
+        scheduler.record(current.greek, "correct");
+        scoredCurrent = true;
+      }
+      goToNextWordAndPlay();
+    });
+  }
   if (btnDontUnderstand) btnDontUnderstand.addEventListener("click", onDontUnderstand);
 
   updateResponseButtons();

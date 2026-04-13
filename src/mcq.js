@@ -45,13 +45,15 @@ function shuffle(arr) {
  * @param {WordEntry[]} entries
  * @param {string} wordsSel
  * @param {string} choicesSel
+ * @param {{ pick: (pool: WordEntry[]) => WordEntry | null }} scheduler
  */
-function buildRound(entries, wordsSel, choicesSel) {
+function buildRound(entries, wordsSel, choicesSel, scheduler) {
   const wordsPool = filterByTopic(entries, wordsSel);
   const choicesPool = filterByTopic(entries, choicesSel);
   if (wordsPool.length === 0) return null;
 
-  const target = wordsPool[Math.floor(Math.random() * wordsPool.length)];
+  const target = scheduler.pick(wordsPool);
+  if (!target) return null;
   const correct = target.english.trim();
 
   const fromChoices = shuffle(
@@ -93,17 +95,30 @@ function buildRound(entries, wordsSel, choicesSel) {
 /**
  * @param {object} opts
  * @param {WordEntry[]} opts.entries
+ * @param {{ pick: (pool: WordEntry[]) => WordEntry | null, record: (greek: string, outcome: "correct" | "wrong" | "guessed" | "know") => void }} opts.scheduler
  */
-export function initMcq({ entries }) {
+export function initMcq({ entries, scheduler }) {
   const wordsSel = document.getElementById("mcq-words-pool");
   const choicesSel = document.getElementById("mcq-choices-pool");
   const btnPlay = document.getElementById("mcq-play");
   const btnReveal = document.getElementById("mcq-reveal");
+  const btnGuessed = document.getElementById("mcq-guessed");
+  const btnKnow = document.getElementById("mcq-know");
   const btnNext = document.getElementById("mcq-next");
   const greekEl = document.getElementById("mcq-greek-display");
   const optionsEl = document.getElementById("mcq-options");
 
-  if (!wordsSel || !choicesSel || !btnPlay || !btnReveal || !btnNext || !greekEl || !optionsEl) {
+  if (
+    !wordsSel ||
+    !choicesSel ||
+    !btnPlay ||
+    !btnReveal ||
+    !btnGuessed ||
+    !btnKnow ||
+    !btnNext ||
+    !greekEl ||
+    !optionsEl
+  ) {
     return;
   }
 
@@ -136,6 +151,14 @@ export function initMcq({ entries }) {
   /** User chose Hide between plays while Greek had been shown. Cleared on Play. */
   let betweenPlayHidden = false;
   let answered = false;
+  let answeredCorrect = false;
+
+  function syncConfidenceButtons() {
+    const disabled =
+      !round || audioState === "playing" || !answered || !answeredCorrect;
+    btnGuessed.disabled = disabled;
+    btnKnow.disabled = disabled;
+  }
 
   function greekDatasetState() {
     if (!round) return "idle";
@@ -151,25 +174,31 @@ export function initMcq({ entries }) {
     greekEl.dataset.state = greekDatasetState();
     if (!round) {
       greekEl.textContent = "—";
+      syncConfidenceButtons();
       return;
     }
     if (audioState === "playing") {
       greekEl.textContent = revealedOnce ? round.target.greek : "…";
+      syncConfidenceButtons();
       return;
     }
     if (revealedOnce && !betweenPlayHidden) {
       greekEl.textContent = round.target.greek;
+      syncConfidenceButtons();
       return;
     }
     if (revealedOnce && betweenPlayHidden) {
       greekEl.textContent = "Hidden";
+      syncConfidenceButtons();
       return;
     }
     if (audioState === "after" && !revealedOnce) {
       greekEl.textContent = "Hidden";
+      syncConfidenceButtons();
       return;
     }
     greekEl.textContent = "—";
+    syncConfidenceButtons();
   }
 
   function renderOptions() {
@@ -204,6 +233,8 @@ export function initMcq({ entries }) {
     if (!round || answered) return;
     answered = true;
     const ok = label === round.correct;
+    answeredCorrect = ok;
+    scheduler.record(round.target.greek, ok ? "correct" : "wrong");
     optionsEl.querySelectorAll(".mcq-option").forEach((el) => {
       el.disabled = true;
       const b = /** @type {HTMLButtonElement} */ (el);
@@ -214,14 +245,16 @@ export function initMcq({ entries }) {
         b.classList.add("mcq-wrong");
       }
     });
+    syncConfidenceButtons();
   }
 
   function newRound() {
     speechSynthesis.cancel();
     const w = wordsSel.value;
     const c = choicesSel.value;
-    round = buildRound(entries, w, c);
+    round = buildRound(entries, w, c, scheduler);
     answered = false;
+    answeredCorrect = false;
     revealedOnce = false;
     betweenPlayHidden = false;
     audioState = "idle";
@@ -232,6 +265,7 @@ export function initMcq({ entries }) {
     btnPlay.disabled = !round;
     setGreekDisplay();
     renderOptions();
+    syncConfidenceButtons();
   }
 
   function onPlay() {
@@ -266,10 +300,26 @@ export function initMcq({ entries }) {
     setGreekDisplay();
   }
 
+  function onGuessedIt() {
+    if (!round || !answered || !answeredCorrect || audioState === "playing") return;
+    scheduler.record(round.target.greek, "guessed");
+    newRound();
+    onPlay();
+  }
+
+  function onKnowIt() {
+    if (!round || !answered || !answeredCorrect || audioState === "playing") return;
+    scheduler.record(round.target.greek, "know");
+    newRound();
+    onPlay();
+  }
+
   wordsSel.addEventListener("change", newRound);
   choicesSel.addEventListener("change", newRound);
   btnPlay.addEventListener("click", onPlay);
   btnReveal.addEventListener("click", onRevealClick);
+  btnGuessed.addEventListener("click", onGuessedIt);
+  btnKnow.addEventListener("click", onKnowIt);
   btnNext.addEventListener("click", () => {
     newRound();
     onPlay();
