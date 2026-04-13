@@ -2,7 +2,7 @@ import { initListen } from "./listen.js";
 import { initMcq } from "./mcq.js";
 import { initVoicesListener } from "./speech.js";
 
-const WORDLIST_URL = "/data/wordlist.json";
+const WORDLIST_URL = `${import.meta.env.BASE_URL}data/wordlist.json`;
 
 const statusEl = document.getElementById("status");
 
