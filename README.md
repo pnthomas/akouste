@@ -1,8 +1,8 @@
-# Akouste
+# Akoúste
 
 Live at: [https://pnthomas.github.io/akouste/](https://pnthomas.github.io/akouste/)  
 
-Akouste is a listening-comprehension practice app for Greek (ákouste means "listen" in Greek). Its goal is to make listening practice low-stress and confidence-building, especially for beginners following a classroom course.
+Akoúste is a listening-comprehension practice app for Greek (akoúste means "listen" in Greek). Its goal is to make listening practice low-stress and confidence-building, especially for beginners following a classroom course.
 
 Runs in browser via web so it should work on any device. Tested on OSX + Chrome and Pixel 9 + Chrome. It uses TTS so you might have to add Greek as a supported TTS langage on your mobile device, see **Mobile Setup**, below.
 
@@ -39,7 +39,7 @@ Runs in browser via web so it should work on any device. Tested on OSX + Chrome 
 
 ## Question corpus strategy
 
-To keep runtime simple and cheap, Akouste uses a **pre-generated, finite corpus** of Q&A pairs:
+To keep runtime simple and cheap, Akoúste uses a **pre-generated, finite corpus** of Q&A pairs:
 
 1. **Generate English Q&A with an LLM**
   - Use a large language model to create hundreds of simple, closed-ended Q&A pairs in **English**, constrained by:
