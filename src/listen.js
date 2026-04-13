@@ -188,6 +188,11 @@ export function initListen({ entries }) {
     setGreekDisplay();
   }
 
+  function goToNextWordAndPlay() {
+    goToNextWord();
+    onPlay();
+  }
+
   function onDontUnderstand() {
     if (!current || entries.length === 0) return;
     if (!englishShown) {
@@ -201,14 +206,14 @@ export function initListen({ entries }) {
       setGreekDisplay();
       return;
     }
-    goToNextWord();
+    goToNextWordAndPlay();
   }
 
   if (!btnPlay || !btnReveal || !greekEl) return;
 
   btnPlay.addEventListener("click", onPlay);
   btnReveal.addEventListener("click", onRevealClick);
-  if (btnUnderstand) btnUnderstand.addEventListener("click", goToNextWord);
+  if (btnUnderstand) btnUnderstand.addEventListener("click", goToNextWordAndPlay);
   if (btnDontUnderstand) btnDontUnderstand.addEventListener("click", onDontUnderstand);
 
   updateResponseButtons();
