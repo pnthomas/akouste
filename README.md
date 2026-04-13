@@ -6,6 +6,9 @@ Akouste is a listening-comprehension practice app for Greek (ákouste means "lis
 
 Runs in browser via web so it should work on any device. Tested on OSX + Chrome and Pixel 9 + Chrome. It uses TTS so you might have to add Greek as a supported TTS langage on your mobile device, see **Mobile Setup**, below.
 
+![Listen Only](docs/listen_mode.png)  
+![Multiple Choice](docs/multiple_choice_mode.png)
+
 ## Purpose
 
 - **Focus on listening, not speaking:** The primary skill is listening comprehension; speaking is secondary and comes later via voice answers.
