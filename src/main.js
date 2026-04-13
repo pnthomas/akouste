@@ -29,6 +29,7 @@ function setupModeTabs() {
 
   tabListen.addEventListener("click", () => activate("listen"));
   tabMcq.addEventListener("click", () => activate("mcq"));
+  activate("mcq");
 }
 
 async function main() {

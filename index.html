@@ -10,7 +10,6 @@
     <div id="app">
       <header class="header">
         <h1 class="title">Akouste</h1>
-        <p class="tagline">Listen first. Greek stays hidden until you ask.</p>
       </header>
 
       <p id="status" class="status" role="status"></p>
@@ -20,32 +19,68 @@
           type="button"
           class="mode-tab"
           role="tab"
-          id="tab-listen"
+          id="tab-mcq"
           aria-selected="true"
-          aria-controls="panel-listen"
+          aria-controls="panel-mcq"
         >
-          Listening
+          Multiple choice
         </button>
         <button
           type="button"
           class="mode-tab"
           role="tab"
-          id="tab-mcq"
+          id="tab-listen"
           aria-selected="false"
-          aria-controls="panel-mcq"
+          aria-controls="panel-listen"
         >
-          Multiple choice
+          Listen only
         </button>
       </div>
+
+      <section
+        id="panel-mcq"
+        class="card tab-panel"
+        role="tabpanel"
+        aria-labelledby="tab-mcq"
+      >
+        <p class="filter-sentence">
+          <span class="filter-label">Words:</span>
+          <select id="mcq-words-pool" class="filter-select" aria-label="Words pool"></select>
+          <span class="filter-label">Choices:</span>
+          <select id="mcq-choices-pool" class="filter-select" aria-label="Choices pool"></select>
+        </p>
+
+        <p id="mcq-greek-display" class="greek-display" data-state="idle">—</p>
+
+        <div id="mcq-options" class="mcq-options" role="group" aria-label="English choices"></div>
+
+        <div class="action-groups">
+          <div class="action-group play-group">
+            <button type="button" id="mcq-play" class="btn primary">Play</button>
+            <button type="button" id="mcq-reveal" class="btn" disabled>Show Greek</button>
+          </div>
+          <div class="action-group">
+            <button type="button" id="mcq-next" class="btn">Next question</button>
+          </div>
+        </div>
+      </section>
 
       <section
         id="panel-listen"
         class="card tab-panel"
         role="tabpanel"
         aria-labelledby="tab-listen"
+        hidden
       >
-        <p class="label">Greek</p>
-        <p id="greek-display" class="greek-display" data-state="idle">—</p>
+        <div
+          id="listen-word-box"
+          class="listen-word-box"
+          aria-live="polite"
+          aria-label="Current word"
+        >
+          <span id="greek-display" class="greek-display listen-word-greek" data-state="idle">—</span>
+          <span id="listen-english-display" class="listen-word-english" hidden aria-hidden="true"></span>
+        </div>
 
         <div class="action-groups">
           <div class="action-group play-group">
@@ -71,36 +106,6 @@
             >
               δεν καταλαβαίνω
             </button>
-          </div>
-        </div>
-      </section>
-
-      <section
-        id="panel-mcq"
-        class="card tab-panel"
-        role="tabpanel"
-        aria-labelledby="tab-mcq"
-        hidden
-      >
-        <p class="filter-sentence">
-          <span class="filter-label">Words:</span>
-          <select id="mcq-words-pool" class="filter-select" aria-label="Words pool"></select>
-          <span class="filter-label">Choices:</span>
-          <select id="mcq-choices-pool" class="filter-select" aria-label="Choices pool"></select>
-        </p>
-
-        <p class="label">Greek</p>
-        <p id="mcq-greek-display" class="greek-display" data-state="idle">—</p>
-
-        <div id="mcq-options" class="mcq-options" role="group" aria-label="English choices"></div>
-
-        <div class="action-groups">
-          <div class="action-group play-group">
-            <button type="button" id="mcq-play" class="btn primary">Play</button>
-            <button type="button" id="mcq-reveal" class="btn" disabled>Show Greek</button>
-          </div>
-          <div class="action-group">
-            <button type="button" id="mcq-next" class="btn">Next question</button>
           </div>
         </div>
       </section>

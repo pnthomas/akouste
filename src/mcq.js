@@ -139,6 +139,7 @@ export function initMcq({ entries }) {
 
   function greekDatasetState() {
     if (!round) return "idle";
+    if (audioState === "playing" && revealedOnce) return "revealed";
     if (audioState === "playing") return "playing";
     if (revealedOnce && !betweenPlayHidden) return "revealed";
     if (revealedOnce && betweenPlayHidden) return "hidden";
