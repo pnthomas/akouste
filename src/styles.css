@@ -29,9 +29,110 @@ body {
 }
 
 #app {
-  max-width: 28rem;
+  max-width: 32rem;
   margin: 0 auto;
   padding: 2.5rem 1.25rem 3rem;
+}
+
+.mode-tabs {
+  display: flex;
+  gap: 0.35rem;
+  margin-bottom: 1rem;
+}
+
+.mode-tab {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  font: inherit;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.2);
+  color: var(--muted);
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.mode-tab[aria-selected="true"] {
+  background: rgba(61, 139, 253, 0.2);
+  border-color: rgba(61, 139, 253, 0.45);
+  color: var(--text);
+}
+
+.mode-tab:hover {
+  color: var(--text);
+}
+
+.tab-panel[hidden] {
+  display: none !important;
+}
+
+.filter-sentence {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.35rem 0.45rem;
+  margin: 0 0 1.25rem;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: var(--text);
+  overflow-x: auto;
+  padding-bottom: 2px;
+}
+
+.filter-label {
+  flex-shrink: 0;
+  color: var(--muted);
+}
+
+.filter-select {
+  flex: 1 1 0;
+  min-width: 5.5rem;
+  padding: 0.35rem 0.45rem;
+  font: inherit;
+  font-size: 0.82rem;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.35);
+  color: var(--text);
+}
+
+.mcq-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.mcq-option {
+  text-align: left;
+  min-height: 2.75rem;
+}
+
+.mcq-correct {
+  border-color: rgba(47, 111, 91, 0.85) !important;
+  background: rgba(47, 111, 91, 0.35) !important;
+}
+
+.mcq-wrong {
+  border-color: rgba(154, 77, 66, 0.85) !important;
+  background: rgba(154, 77, 66, 0.25) !important;
+}
+
+@keyframes mcq-celebrate-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 1px rgba(125, 204, 176, 0.25);
+    border-color: rgba(47, 111, 91, 0.85);
+  }
+  50% {
+    box-shadow: 0 0 0 3px rgba(125, 204, 176, 0.55), 0 0 12px rgba(125, 204, 176, 0.25);
+    border-color: rgba(160, 230, 200, 0.95);
+  }
+}
+
+.mcq-option.mcq-celebrate {
+  animation: mcq-celebrate-pulse 0.5s ease-in-out 1;
 }
 
 .header {

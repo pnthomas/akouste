@@ -15,7 +15,35 @@
 
       <p id="status" class="status" role="status"></p>
 
-      <section class="card" aria-live="polite">
+      <div class="mode-tabs" role="tablist" aria-label="Practice mode">
+        <button
+          type="button"
+          class="mode-tab"
+          role="tab"
+          id="tab-listen"
+          aria-selected="true"
+          aria-controls="panel-listen"
+        >
+          Listening
+        </button>
+        <button
+          type="button"
+          class="mode-tab"
+          role="tab"
+          id="tab-mcq"
+          aria-selected="false"
+          aria-controls="panel-mcq"
+        >
+          Multiple choice
+        </button>
+      </div>
+
+      <section
+        id="panel-listen"
+        class="card tab-panel"
+        role="tabpanel"
+        aria-labelledby="tab-listen"
+      >
         <p class="label">Greek</p>
         <p id="greek-display" class="greek-display" data-state="idle">—</p>
 
@@ -43,6 +71,36 @@
             >
               δεν καταλαβαίνω
             </button>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="panel-mcq"
+        class="card tab-panel"
+        role="tabpanel"
+        aria-labelledby="tab-mcq"
+        hidden
+      >
+        <p class="filter-sentence">
+          <span class="filter-label">Words:</span>
+          <select id="mcq-words-pool" class="filter-select" aria-label="Words pool"></select>
+          <span class="filter-label">Choices:</span>
+          <select id="mcq-choices-pool" class="filter-select" aria-label="Choices pool"></select>
+        </p>
+
+        <p class="label">Greek</p>
+        <p id="mcq-greek-display" class="greek-display" data-state="idle">—</p>
+
+        <div id="mcq-options" class="mcq-options" role="group" aria-label="English choices"></div>
+
+        <div class="action-groups">
+          <div class="action-group play-group">
+            <button type="button" id="mcq-play" class="btn primary">Play</button>
+            <button type="button" id="mcq-reveal" class="btn" disabled>Show Greek</button>
+          </div>
+          <div class="action-group">
+            <button type="button" id="mcq-next" class="btn">Next question</button>
           </div>
         </div>
       </section>

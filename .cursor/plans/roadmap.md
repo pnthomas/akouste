@@ -27,24 +27,26 @@ Canonical **capabilities and phase order** for Akouste. High-level **what/why** 
 
 ---
 
-## Phase 3 — Minimal stats
+## Phase 3 — Multiple choice (English gloss)
+
+| | |
+|---|---|
+| **Goal** | Hear Greek, choose the correct English gloss. |
+| **Rules** | **Four** options = one correct + **three distractors**. Distractor **English glosses** are drawn at random from the pool defined by the **choices** filter (see UI). The spoken word is drawn from the pool defined by the **words** filter. |
+| **UI** | Copy: **“Select words from [X] and choices from [Y]”** — two dropdowns with the **same** options, set **independently**: default **All words**, then one option per **subcategory** (topic) in the list (e.g. People and Family, Classroom and Office supplies). **X** controls which lemmas can be chosen as the prompt; **Y** controls which lemmas contribute **wrong-answer glosses** (and the correct gloss always matches the prompt word). |
+| **Defaults** | With both on **All words**, word and distractors are chosen **at random** from the full list (subject to the four-option rule). |
+| **Deliverables** | MCQ UI, play-on-prompt, immediate feedback (ding/bong pattern; record outcomes into Phase 4 stats when stats exist). |
+
+---
+
+## Phase 4 — Minimal stats
 
 | | |
 |---|---|
 | **Goal** | Persist enough signal for **spaced repetition** and “what to drill next.” |
-| **When** | As soon as Phase 2 behaves reliably; refine alongside Phase 4 (MCQ) as modes grow. |
+| **When** | As soon as Phase 2 behaves reliably; refine alongside Phase 3 (MCQ) as modes grow. |
 | **Storage** | Browser-only (e.g. `localStorage` / IndexedDB as needed); no accounts. |
 | **Deliverables** | Per-item outcomes, scheduling hooks for SRS; keep schema open for Phase 9. |
-
----
-
-## Phase 4 — Multiple choice (English gloss)
-
-| | |
-|---|---|
-| **Goal** | Duolingo-style parity: hear Greek, choose correct English gloss. |
-| **Rules** | Five options = one correct + **four distractors** drawn **at random from the full list** (later: filter by C/D). |
-| **Deliverables** | MCQ UI, play-on-prompt, immediate feedback (ding/bong pattern; record outcomes into Phase 3 stats). |
 
 ---
 
@@ -65,7 +67,7 @@ Canonical **capabilities and phase order** for Akouste. High-level **what/why** 
 | **Data** | Word list may remain Sheet-backed; same sync story as Phase 1. |
 | **Deliverables** | Web Speech API or chosen STT provider; same UX feedback as typed English. |
 
-**Milestone:** Phases 4–6 are the **English-language word loop** (MCQ → typed → voice). This should be solid before Phase 7.
+**Milestone:** **Phases 3, 5, and 6** are the **English-language word loop** (MCQ → typed → voice). **Phase 4** adds minimal stats alongside. That loop should be solid before Phase 7.
 
 ---
 
@@ -77,7 +79,7 @@ Canonical **capabilities and phase order** for Akouste. High-level **what/why** 
 | **Includes** | **Greek question generation / curation**: pipeline for a finite corpus (e.g. pre-generated JSON, human review, constrained LLM translation—exact stack TBD). Each item needs a **clear, gradable** expected answer. |
 | **Pedagogy** | **Listen in context, respond appropriately** — not English gloss ID. |
 | **Answers** | **Greek** (typed and/or spoken); Greek ASR + grading when using voice. |
-| **Prerequisite** | English word loop (Phases 4–6) end-to-end. |
+| **Prerequisite** | English word loop (Phases 3, 5–6) end-to-end; stats (Phase 4) as needed for your product. |
 
 ---
 
@@ -94,7 +96,7 @@ Canonical **capabilities and phase order** for Akouste. High-level **what/why** 
 
 | | |
 |---|---|
-| **Stats / metrics** | Beyond minimal SRS (Phase 3): response **latency**, strengths and weaknesses by word or topic, optional **weighting** practice toward weaker areas, lifetime vs session views—still client-side unless product changes. |
+| **Stats / metrics** | Beyond minimal SRS (Phase 4): response **latency**, strengths and weaknesses by word or topic, optional **weighting** practice toward weaker areas, lifetime vs session views—still client-side unless product changes. |
 | **Vocabulary intake** | Additional ways to get words into the system (beyond Phase 1’s Google Doc / Sheet path): **paste or upload** a list or small CSV and review before save; **camera + OCR** (e.g. photo of a printed list, extract text, select subset, review); **audio-based**: read Greek words aloud, propose candidate entries per recognized word, filter false starts/duplicates/already-known, end with a **review screen** before saving. |
 
 ---

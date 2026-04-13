@@ -91,14 +91,15 @@ Capabilities are ordered **1 → 9** to match the phased plan in [`.cursor/plans
    - Pick a word from the list, play it in Greek (TTS or bundled audio).  
    - Default: **no on-screen Greek** while listening; optional reveal after play.
 
-3. **Minimal stats**  
+3. **Multiple choice (English gloss)**  
+   - Hear Greek, choose the correct English gloss: **four** options = one correct + **three distractors**.  
+   - UI: **“Select words from [X] and choices from [Y]”** — two independent dropdowns (same options: **All words**, then each **subcategory** / topic). **X** limits which words can be prompted; **Y** limits where distractor glosses are drawn from. Default **All** / **All** = fully random.  
+   - Immediate feedback (**ding** / **bong**); outcomes feed phase-4 stats when implemented.
+
+4. **Minimal stats**  
    - Persist enough for **spaced repetition** and “what to drill next.”  
    - **Browser-only** storage (e.g. `localStorage` / IndexedDB); no accounts.  
-   - Starts once the phase-2 loop is reliable; refined as later modes appear.
-
-4. **Multiple choice (English gloss)**  
-   - Hear Greek, choose the correct English gloss; **five** options = correct + **four distractors** from the full list (later: filter by topic/category).  
-   - Immediate feedback (**ding** / **bong**); outcomes feed phase-3 stats.
+   - Refined alongside phase 3 as modes grow.
 
 5. **Typed English answer**  
    - Type the English gloss; normalize (trim, case), compare to the expected string, same feedback pattern as MCQ.
@@ -116,7 +117,7 @@ Capabilities are ordered **1 → 9** to match the phased plan in [`.cursor/plans
    - **Stats:** Beyond minimal SRS—e.g. latency, strengths/weaknesses by word or topic, optional weighting toward weak areas, lifetime vs session views (still client-side unless the product changes).  
    - **Vocabulary:** Paste/upload CSV, camera + OCR, or audio-based capture with review—beyond the phase-1 Sheet path.
 
-**Milestone:** Phases **4–6** are the **English-language word loop** (MCQ → typed → voice). That loop should be solid before phase 7.
+**Milestone:** Phases **3, 5, and 6** are the **English-language word loop** (MCQ → typed → voice). **Phase 4** adds minimal stats alongside. That loop should be solid before phase 7.
 
 ---
 
@@ -156,4 +157,3 @@ From the repository root (`akouste/`):
 - When you create the GitHub repo, this file serves as the default landing page.
 - **Phase order and tables** are canonical in [`.cursor/plans/roadmap.md`](.cursor/plans/roadmap.md); this section is the readable summary.
 - This README stays **human-facing**, describing what Akouste is, why it exists, and what it will be able to do.
-
