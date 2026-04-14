@@ -1,6 +1,7 @@
 import { initListen } from "./listen.js";
 import { initMcq } from "./mcq.js";
 import { createRecurrenceScheduler } from "./scheduler.js";
+import { initSpoken } from "./spoken.js";
 import { initVoicesListener } from "./speech.js";
 
 const WORDLIST_URL = `${import.meta.env.BASE_URL}data/wordlist.json`;
@@ -29,24 +30,33 @@ function setWordlistMeta(data, entries) {
 }
 
 function setupModeTabs() {
-  const tabListen = document.getElementById("tab-listen");
   const tabMcq = document.getElementById("tab-mcq");
-  const panelListen = document.getElementById("panel-listen");
+  const tabSpoken = document.getElementById("tab-spoken");
+  const tabListen = document.getElementById("tab-listen");
   const panelMcq = document.getElementById("panel-mcq");
-  if (!tabListen || !tabMcq || !panelListen || !panelMcq) return;
+  const panelSpoken = document.getElementById("panel-spoken");
+  const panelListen = document.getElementById("panel-listen");
+  if (!tabMcq || !tabSpoken || !tabListen || !panelMcq || !panelSpoken || !panelListen) return;
+
+  const modes = [
+    { id: "mcq", tab: tabMcq, panel: panelMcq },
+    { id: "spoken", tab: tabSpoken, panel: panelSpoken },
+    { id: "listen", tab: tabListen, panel: panelListen },
+  ];
 
   function activate(mode) {
-    const listen = mode === "listen";
-    tabListen.setAttribute("aria-selected", listen ? "true" : "false");
-    tabMcq.setAttribute("aria-selected", listen ? "false" : "true");
-    panelListen.hidden = !listen;
-    panelMcq.hidden = listen;
-    tabListen.tabIndex = listen ? 0 : -1;
-    tabMcq.tabIndex = listen ? -1 : 0;
+    for (const m of modes) {
+      const sel = m.id === mode;
+      m.tab.setAttribute("aria-selected", sel ? "true" : "false");
+      m.panel.hidden = !sel;
+      m.tab.tabIndex = sel ? 0 : -1;
+    }
+    document.dispatchEvent(new CustomEvent("akouste-mode", { detail: { mode } }));
   }
 
-  tabListen.addEventListener("click", () => activate("listen"));
   tabMcq.addEventListener("click", () => activate("mcq"));
+  tabSpoken.addEventListener("click", () => activate("spoken"));
+  tabListen.addEventListener("click", () => activate("listen"));
   activate("mcq");
 }
 
@@ -77,6 +87,13 @@ async function main() {
       "mcq-guessed",
       "mcq-know",
       "mcq-next",
+      "spoken-play",
+      "spoken-reveal",
+      "spoken-dont-know",
+      "spoken-repeat",
+      "mcq-words-pool",
+      "mcq-choices-pool",
+      "spoken-words-pool",
     ];
     for (const id of ids) {
       const el = document.getElementById(id);
@@ -89,6 +106,7 @@ async function main() {
   const scheduler = createRecurrenceScheduler(entries);
   initListen({ entries, scheduler });
   initMcq({ entries, scheduler });
+  initSpoken({ entries, scheduler });
 }
 
 main();
