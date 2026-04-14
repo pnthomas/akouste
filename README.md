@@ -2,12 +2,12 @@
 
 Live at: [https://pnthomas.github.io/akouste/](https://pnthomas.github.io/akouste/)  
 
-Akoúste is a listening-comprehension practice app for Greek (akoúste means "listen" in Greek). The goal is to make listening practice easy and low-stress, and to allow beginners following a classroom course to align it to their course's vocabulary.
+Akoúste is a listening-comprehension practice app for Greek learners (akoúste means "listen" in Greek). The goal is to make listening practice easy and low-stress, and to allow beginners following a classroom course to align it to their course's vocabulary.
 
 Runs in browser via web so it should work on any device. Tested on OSX + Chrome and Pixel 9 + Chrome. It uses TTS so you might have to add Greek as a supported TTS language on your mobile device, see **Mobile Setup**, below.
 
-![Listen Only](docs/listen_mode.png)  
-![Multiple Choice](docs/multiple_choice_mode.png)  
+Listen Only  
+Multiple Choice  
 
 ## Purpose
 
@@ -17,12 +17,27 @@ Runs in browser via web so it should work on any device. Tested on OSX + Chrome 
 
 ## Modes
 
-1. **Single word:** Listen only
-2. **Multiple choice:** Listen and select the English gloss (recognition)
-3. **Speak English:** Hear the Greek word, answer with the English gloss by voice (`en-US` speech recognition); optional English voice commands (again, skip, etc.).
-4. **Questions:** The app **speaks a question in Greek** (using TTS or pre-recorded audio), learner **answers** (recall). Via **text** for the first iteration, then later via **voice**.
+1. **Single word:** Listen only [✅ Available]
+2. **Multiple choice:** Listen and select the English gloss (recognition) [✅ Available]
+3. **Speak English:** Hear the Greek word, answer with the English gloss by voice (`en-US` speech recognition); optional English voice commands (again, skip, etc.). [✅ Available]
+4. **Questions:** The app **speaks a question in Greek** (using TTS or pre-recorded audio), learner **answers** (recall). Via **text** for the first iteration, then later via **voice**. [⏳ In progress]
 
-## Question Mode (The goal of the project)
+## Platform and Tech
+
+- **Static single-page app** hosted on GitHub Pages, mostly HTML and JS. Live at: [https://pnthomas.github.io/akouste/](https://pnthomas.github.io/akouste/) . 
+- **Speech input/output uses free browser Web Speech API** for TTS and (where supported) STT. At least for now, no LLM calls and no cost. (Question answering might require some fuzzy enough logic that we'll get to LLMs, but that's the future.)
+- **Pre-generated words and Q&A.** Update from a Google Sheet so it's easy to keep aligned with current vocab.  LLM's are curiosly bad at creating these types of question despite probably having explicitly such statements in their training data, so this is 90% human created/edited. Automated Github Actions step to pull down the most recent wordlist and turn it into a JSON every push.
+- **Stats and progress can live in browser storage** (e.g. `localStorage`), so no server or account system is required initially and progress lives on the local machine. (Can't refresh the page without losing learning progress/word weighting , though, so we'll improve this eventually.)
+
+## Isn't this just Duolingo with extra steps?
+
+Yes and no. Mostly no. It shares with Duolingo the core idea of low-friction computer-mediated language learning. However, unlike Duolingo, which is foremost intended to provide a gamified experience for casual users where the goal is engagement rather than actual learning, this app is intended to support dedicated language learners who want to drill specifically listening, and do so in alignment with their classroom progression.
+
+## Question Mode (The actual goal of the project)
+
+Understanding language in spoken context is paradoxically the highest skill and hardest to learn. Developing "an ear" for the language -- that is, moving from a wall of sound to an intuitive parsing out into meaningful units -- is in part, simply a function of time on task. That is, hearing it *while attending to it*. Merely hearing it is useful to internalize the prosody (who can't at least take a stab at an Indian accent even if they don't know the words), but to learn grammar and semantics, one needs to be actively engaged in sensemaking. So hearing individual words isn't enough; one has to grow an experience base of hearing the language and responding, in the target language, based on what was heard.
+
+Q&A is a great format for this because it keeps a very closed loop, setting aside open-ended conversational pressures to focus on drilling closed-ended comprehension.
 
 ### Question Design
 
@@ -59,27 +74,14 @@ To keep runtime simple and cheap, Akoúste uses a **pre-generated, finite corpus
 This process can be repeated a few times to build a large, offline corpus.  
 Later, a **live-generation mode** can be added as an optional feature for extra variety.
 
-## Platform and tech (high level)
+## Platform and Tech
 
 - Static single-page app hosted on GitHub Pages, mostly HTML
-- Pre-generated Q&A JSON files (and optional audio files).
+- Pre-generated words and Q&A as JSON files (and optional audio files).
 - No backend required for the early phases.
-- **Data and privacy:**
-  - Stats and progress can live in **browser storage** (e.g. `localStorage`), so no server or account system is required initially.
+- Data and privacy: Stats and progress can live in **browser storage** (e.g. `localStorage`), so no server or account system is required initially.
 
-## Audience and scope
-
-- **Primary audience:** You (the creator) and other beginner/intermediate learners of Greek.
-- **Secondary audience:** Potentially other learners or teachers who want:
-  - Custom word lists aligned with their class.
-  - A low-friction, focused listening tool.
-- **Out of scope for early versions:**
-  - Native mobile apps and app store distribution.
-  - Multi-user account systems and cloud-sync of stats.
-
-## Roadmap (capabilities)
-
-Capabilities are ordered **1 → 9** to match the phased plan in `[.cursor/plans/roadmap.md](.cursor/plans/roadmap.md)`. Early work centers on **classroom vocabulary** and **English-backed answers**; **short Greek questions with Greek answers** comes later (phases 7–8). Details and milestones live in that file.
+## Roadmap
 
 1. ~~**Vocabulary intake**~~
   - Greek/English pairs (plus topic and grammatical category) in a stable runtime format.  
@@ -95,9 +97,9 @@ Capabilities are ordered **1 → 9** to match the phased plan in `[.cursor/plans
   - Persist enough for **spaced repetition** and “what to drill next.”  
   - **Browser-only** storage (e.g. `localStorage` / IndexedDB); no accounts.  
   - Refined alongside phase 3 as modes grow.
-5. **Typed English answer**
+5. ~~**Typed English answer**~~ (skipped)
   - Type the English gloss; normalize (trim, case), compare to the expected string, same feedback pattern as MCQ.
-6. **Spoken English answer (STT)**
+6. ~~**Spoken English answer (STT)**~~
   - Speak the English gloss; speech-to-text (`en-US`), then rule match to the expected gloss; Web Audio feedback; **English** voice commands for hands-free control (again / I don’t know / stop). Greek spoken commands may be added later as polish.
 7. **Greek questions + answers in Greek** *(deferred)*
   - Move from isolated words and English answers to **short Greek questions** heard in full, with **short Greek answers** (typed and/or spoken). Requires a curated Greek Q&A corpus.
@@ -106,12 +108,6 @@ Capabilities are ordered **1 → 9** to match the phased plan in `[.cursor/plans
 9. **Richer stats and more vocabulary intake options** *(later)*
   - **Stats:** Beyond minimal SRS—e.g. latency, strengths/weaknesses by word or topic, optional weighting toward weak areas, lifetime vs session views (still client-side unless the product changes).  
   - **Vocabulary:** Paste/upload CSV, camera + OCR, or audio-based capture with review—beyond the phase-1 Sheet path.
-
-**Milestone:** Phases **3, 5, and 6** are the **English-language word loop** (MCQ → typed → voice). **Phase 4** adds minimal stats alongside. That loop should be solid before phase 7.
-
-## Isn't this just Duolingo with extra steps?
-
-Yes and no. Mostly no. It shares with Duolingo the core idea of low-friction computer-mediated language learning. However, unlike Duolingo, which is intended to provide a gamified experience for casual users where the goal is engagement rather than actual learning, this app is intended to support dedicated language learners who want to drill specific vocabulary and specifically listening, which is the hardest skill to develop in a classroom setting.
 
 ---
 
@@ -134,5 +130,5 @@ Yes and no. Mostly no. It shares with Duolingo the core idea of low-friction com
 
 ## Local Testing
 
-akouste % npm install 
-akouste % npm run dev                             
+akouste % npm install
+akouste % npm run dev
