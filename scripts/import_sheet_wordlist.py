@@ -23,8 +23,9 @@ DEFAULT_CSV_URL = (
     "https://docs.google.com/spreadsheets/d/e/2PACX-1vSp4GDYcJO0yfzZWtxQSfEMjE6n6-KIvbPbc91_COg5D59EubY7mpJwoVEAKdggc1x8l0s9c9k2CEDj/pub?output=csv"
 )
 
-# Expected header row (case-sensitive match after strip)
-EXPECTED_FIELDS = ("Greek", "English", "Subcategory", "Main Category")
+# Required header fields (case-sensitive match after strip).
+# Additional columns are allowed (e.g. "Eng. Alternate", "Date").
+REQUIRED_FIELDS = ("Greek", "English", "Subcategory", "Main Category")
 
 
 def repo_root() -> Path:
@@ -46,9 +47,10 @@ def parse_entries(text: str) -> list[dict[str, str]]:
     if reader.fieldnames is None:
         raise ValueError("CSV has no header row")
     fields = tuple(h.strip() if h else "" for h in reader.fieldnames)
-    if fields != EXPECTED_FIELDS:
+    missing = [field for field in REQUIRED_FIELDS if field not in fields]
+    if missing:
         raise ValueError(
-            f"Unexpected CSV columns {fields!r}; expected {EXPECTED_FIELDS!r}"
+            f"Missing required CSV columns {tuple(missing)!r}; got {fields!r}"
         )
 
     entries: list[dict[str, str]] = []
