@@ -29,6 +29,17 @@
           type="button"
           class="mode-tab"
           role="tab"
+          id="tab-spoken"
+          aria-selected="false"
+          aria-controls="panel-spoken"
+          tabindex="-1"
+        >
+          Greek->English
+        </button>
+        <button
+          type="button"
+          class="mode-tab"
+          role="tab"
           id="tab-listen"
           aria-selected="false"
           aria-controls="panel-listen"
@@ -65,6 +76,65 @@
             <button type="button" id="mcq-next" class="btn mcq-next-wide">Next question</button>
           </div>
         </div>
+      </section>
+
+      <section
+        id="panel-spoken"
+        class="card tab-panel"
+        role="tabpanel"
+        aria-labelledby="tab-spoken"
+        hidden
+      >
+        <p class="filter-sentence">
+          <span class="filter-label">Words:</span>
+          <select id="spoken-words-pool" class="filter-select" aria-label="Words pool"></select>
+        </p>
+
+        <div
+          id="spoken-word-box"
+          class="listen-word-box"
+          aria-live="polite"
+          aria-label="Current prompt and answer"
+        >
+          <span id="spoken-greek-display" class="greek-display listen-word-greek" data-state="idle">—</span>
+          <span id="spoken-english-display" class="listen-word-english" hidden aria-hidden="true"></span>
+        </div>
+
+        <div class="action-groups">
+          <div class="action-group play-group">
+            <button type="button" id="spoken-play" class="btn primary">Play</button>
+            <button type="button" id="spoken-reveal" class="btn" disabled>Show Greek</button>
+          </div>
+          <div class="action-group response-group">
+            <button
+              type="button"
+              id="spoken-dont-know"
+              class="btn negative"
+              title="I don't know"
+            >
+              I don't know
+            </button>
+            <button
+              type="button"
+              id="spoken-repeat"
+              class="btn muted"
+              title="Repeat"
+            >
+              Repeat
+            </button>
+          </div>
+        </div>
+        <details class="voice-controls">
+          <summary>Voice controls</summary>
+          <p>
+            Press <strong>Play</strong> to hear the Greek word, then speak the English gloss. The app
+            listens continuously until it recognizes a valid response.
+          </p>
+          <p>
+            Hands-free commands: <code>again</code> (or <code>repeat</code>) to replay, <code>i don't
+            know</code> to hear the answer, and <code>stop</code> to pause listening.
+          </p>
+        </details>
       </section>
 
       <section

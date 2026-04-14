@@ -7,7 +7,7 @@ Akoúste is a listening-comprehension practice app for Greek (akoúste means "li
 Runs in browser via web so it should work on any device. Tested on OSX + Chrome and Pixel 9 + Chrome. It uses TTS so you might have to add Greek as a supported TTS language on your mobile device, see **Mobile Setup**, below.
 
 ![Listen Only](docs/listen_mode.png)  
-![Multiple Choice](docs/multiple_choice_mode.png)
+![Multiple Choice](docs/multiple_choice_mode.png)  
 
 ## Purpose
 
@@ -19,7 +19,8 @@ Runs in browser via web so it should work on any device. Tested on OSX + Chrome 
 
 1. **Single word:** Listen only
 2. **Multiple choice:** Listen and select the English gloss (recognition)
-3. **Questions:** The app **speaks a question in Greek** (using TTS or pre-recorded audio), learner **answers** (recall). Via **text** for the first iteration, then later via **voice**.
+3. **Speak English:** Hear the Greek word, answer with the English gloss by voice (`en-US` speech recognition); optional English voice commands (again, skip, etc.).
+4. **Questions:** The app **speaks a question in Greek** (using TTS or pre-recorded audio), learner **answers** (recall). Via **text** for the first iteration, then later via **voice**.
 
 ## Question Mode (The goal of the project)
 
@@ -97,7 +98,7 @@ Capabilities are ordered **1 → 9** to match the phased plan in `[.cursor/plans
 5. **Typed English answer**
   - Type the English gloss; normalize (trim, case), compare to the expected string, same feedback pattern as MCQ.
 6. **Spoken English answer (STT)**
-  - Speak the English gloss; speech-to-text, then rule match to the expected gloss; same feedback as typed English.
+  - Speak the English gloss; speech-to-text (`en-US`), then rule match to the expected gloss; Web Audio feedback; **English** voice commands for hands-free control (again / I don’t know / stop). Greek spoken commands may be added later as polish.
 7. **Greek questions + answers in Greek** *(deferred)*
   - Move from isolated words and English answers to **short Greek questions** heard in full, with **short Greek answers** (typed and/or spoken). Requires a curated Greek Q&A corpus.
 8. **Expand Greek question practice** *(deferred)*

@@ -66,6 +66,7 @@ Canonical **capabilities and phase order** for Akouste. High-level **what/why** 
 | **Goal** | Spoken English answer → text → rule match to expected gloss from the 1:1 list. |
 | **Data** | Word list may remain Sheet-backed; same sync story as Phase 1. |
 | **Deliverables** | Web Speech API or chosen STT provider; same UX feedback as typed English. |
+| **Notes (v1)** | **English-only** `en-US` recognition for answers and **English** hands-free commands (e.g. again, I don't know, stop). **Greek** procedure words as voice commands are optional polish later, not required for Phase 6. |
 
 **Milestone:** **Phases 3, 5, and 6** are the **English-language word loop** (MCQ → typed → voice). **Phase 4** adds minimal stats alongside. That loop should be solid before Phase 7.
 
@@ -98,6 +99,17 @@ Canonical **capabilities and phase order** for Akouste. High-level **what/why** 
 |---|---|
 | **Stats / metrics** | Beyond minimal SRS (Phase 4): response **latency**, strengths and weaknesses by word or topic, optional **weighting** practice toward weaker areas, lifetime vs session views—still client-side unless product changes. |
 | **Vocabulary intake** | Additional ways to get words into the system (beyond Phase 1’s Google Doc / Sheet path): **paste or upload** a list or small CSV and review before save; **camera + OCR** (e.g. photo of a printed list, extract text, select subset, review); **audio-based**: read Greek words aloud, propose candidate entries per recognized word, filter false starts/duplicates/already-known, end with a **review screen** before saving. |
+
+---
+
+## Polish (after Phase 9)
+
+| | |
+|---|---|
+| **Settings shell** | **Settings menu** opened from a **hamburger (three-line) icon** placed to the **right** of the **Akouste** heading; menu holds the options below (and room for more later). |
+| **Interface language** | Toggle **English interface** / **Greek interface** — swap all UI copy between English and Greek and back (strings/i18n). Add a keyboard shortcut to toggle interface language quickly. |
+| **Word list view** | **Show word list** — display the current **lemmata** list **ranked** from **best known** to **worst known** (using Phase 4+ stats). |
+| **English answer equivalents** | Expand grading beyond one literal gloss to accept equivalent English phrases and regional variants (e.g. **swimsuit** vs **bathing suit**), while preserving clear correctness rules. |
 
 ---
 
