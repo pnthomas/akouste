@@ -3,6 +3,7 @@ import { initMcq } from "./mcq.js";
 import { createRecurrenceScheduler } from "./scheduler.js";
 import { initSpoken } from "./spoken.js";
 import { initVoicesListener } from "./speech.js";
+import { initSoundTestHarness } from "./sounds.js";
 
 const WORDLIST_URL = `${import.meta.env.BASE_URL}data/wordlist.json`;
 
@@ -62,6 +63,7 @@ function setupModeTabs() {
 
 async function main() {
   setStatus("");
+  initSoundTestHarness();
   setupModeTabs();
 
   let entries;
