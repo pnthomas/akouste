@@ -48,6 +48,10 @@ function matchProcedure(t) {
 }
 
 const PAUSE_AFTER_ENGLISH_MS = 450;
+/** Extra pause before the next prompt so transitions feel less frantic. */
+const EXTRA_WORD_GAP_MS = 300;
+/** Minimum time between "not understood" double-tone cues (noise / STT spam). */
+const NOT_UNDERSTOOD_SOUND_COOLDOWN_MS = 1400;
 
 const SpeechRec =
   typeof window !== "undefined" && (window.SpeechRecognition || window.webkitSpeechRecognition);
@@ -99,8 +103,13 @@ export function initSpoken({ entries, scheduler }) {
   let betweenPlayHidden = false;
   let englishVisible = false;
   let englishText = "";
+  let lastNotUnderstoodSoundAt = 0;
 
   const topics = uniqueTopics(entries);
+
+  function scheduleAdvanceToNextWord(run) {
+    setTimeout(run, EXTRA_WORD_GAP_MS);
+  }
 
   function fillSelect() {
     wordsSel.innerHTML = "";
@@ -253,6 +262,7 @@ export function initSpoken({ entries, scheduler }) {
     betweenPlayHidden = false;
     englishVisible = false;
     englishText = "";
+    lastNotUnderstoodSoundAt = 0;
     if (btnReveal) btnReveal.textContent = "Show Greek";
     syncAll();
   }
@@ -275,6 +285,15 @@ export function initSpoken({ entries, scheduler }) {
     r.interimResults = false;
     r.maxAlternatives = 1;
 
+    function deferIfStillUnset(fn) {
+      queueMicrotask(() => {
+        if (gen !== listeningGen) return;
+        if (settled) return;
+        settled = true;
+        fn();
+      });
+    }
+
     r.onresult = (ev) => {
       if (gen !== listeningGen) return;
       const last = ev.results[ev.results.length - 1];
@@ -291,28 +310,19 @@ export function initSpoken({ entries, scheduler }) {
     r.onerror = (ev) => {
       if (gen !== listeningGen) return;
       if (ev.error === "aborted") return;
-      if (!settled) {
-        settled = true;
-        onNotUnderstood();
-      }
+      deferIfStillUnset(() => onNotUnderstood());
     };
 
     r.onend = () => {
       if (gen !== listeningGen) return;
       recognition = null;
-      if (!settled) {
-        settled = true;
-        onNotUnderstood();
-      }
+      deferIfStillUnset(() => onNotUnderstood());
     };
 
     try {
       r.start();
     } catch {
-      if (!settled) {
-        settled = true;
-        onNotUnderstood();
-      }
+      deferIfStillUnset(() => onNotUnderstood());
     }
   }
 
@@ -353,8 +363,10 @@ export function initSpoken({ entries, scheduler }) {
     const greek = round.target.greek;
     scheduler.record(greek, "correct");
     playDing(() => {
-      newRound();
-      playAfterLoad();
+      scheduleAdvanceToNextWord(() => {
+        newRound();
+        playAfterLoad();
+      });
     });
   }
 
@@ -371,7 +383,7 @@ export function initSpoken({ entries, scheduler }) {
         setTimeout(() => {
           newRound();
           playAfterLoad();
-        }, PAUSE_AFTER_ENGLISH_MS);
+        }, PAUSE_AFTER_ENGLISH_MS + EXTRA_WORD_GAP_MS);
       });
     });
   }
@@ -396,7 +408,7 @@ export function initSpoken({ entries, scheduler }) {
       setTimeout(() => {
         newRound();
         playAfterLoad();
-      }, PAUSE_AFTER_ENGLISH_MS);
+      }, PAUSE_AFTER_ENGLISH_MS + EXTRA_WORD_GAP_MS);
     });
   }
 
@@ -404,11 +416,24 @@ export function initSpoken({ entries, scheduler }) {
     if (!round || phase !== "listening") return;
     phase = "listening";
     syncAll();
-    playDoubleTone(() => {
-      if (phase === "listening" && round) {
-        startListening();
-      }
-    });
+    const now = Date.now();
+    const allowSound =
+      lastNotUnderstoodSoundAt === 0 ||
+      now - lastNotUnderstoodSoundAt >= NOT_UNDERSTOOD_SOUND_COOLDOWN_MS;
+    if (allowSound) {
+      lastNotUnderstoodSoundAt = now;
+      playDoubleTone(() => {
+        if (phase === "listening" && round) {
+          startListening();
+        }
+      });
+    } else {
+      setTimeout(() => {
+        if (phase === "listening" && round) {
+          startListening();
+        }
+      }, 220);
+    }
   }
 
   function replayGreekOnly() {
